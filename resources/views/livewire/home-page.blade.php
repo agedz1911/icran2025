@@ -1,13 +1,13 @@
-<div class="bg-perhati-50 relative">
+<div class="">
     {{-- Start Hero --}}
 
-    <div class="hero min-h-screen mb-0 bg-sky-50 bg-[url('images/bg2.png')]">
-        <div class="hero-overlay bg-opacity-20"></div>
+    <div class="hero min-h-screen mb-0 bg-gradient-to-t from-maroon-900 to-icran-950">
+        <div class="hero-overlay bg-opacity-20 bg-cover bg-[url('images/bg.png')]"></div>
         <div class="hero-content flex-col justify-start md:flex-row">
             <div class="lg:w-[500px] lg:-mt-40">
                 <img src="images/logo/logo.png" class="max-w-sm" alt="">
                 <div class="flex flex-col gap-4 mt-5">
-                    <h1 class="text-4xl font-semibold">{{ __('home.title')}} PERHATI-KL
+                    <h1 class="text-4xl text-white font-semibold">{{ __('home.title')}} PERHATI-KL
                     </h1>
 
                     <p class="text-biscay-900">{{ __('home.venue')}} <br>
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <img src="images/landing-new.png" class="lg:max-w-lg max-w-xs" />
+            <!-- <img src="images/landing-new.png" class="lg:max-w-lg max-w-xs" /> -->
 
         </div>
     </div>
