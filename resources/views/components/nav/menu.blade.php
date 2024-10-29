@@ -85,7 +85,7 @@
         <!-- Header User Event -->
         <div class="flex items-center gap-1">
           <div class="dropdown dropdown-hover dropdown-end">
-            <div tabindex="0" role="button" class="btn btn-circle btn-primary hover:scale-105 btn-sm">
+            <div tabindex="0" role="button" class="btn btn-outline btn-sm">
               @if(app()->getLocale() == 'en')
                 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="w-4 h-4" preserveAspectRatio="xMidYMid meet" fill="#000000">
                   <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

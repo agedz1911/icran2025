@@ -9,7 +9,7 @@ use Livewire\Component;
 
 
 // *global title
-#[Title('Home - KONAS XX PERHATI-KL')]
+#[Title('Home - ICRAN 2025')]
 
 
 // class HomePage extends Component

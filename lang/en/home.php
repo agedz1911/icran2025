@@ -1,15 +1,15 @@
 <?php
 
 return [
-    'title' => 'The XX National Congress of',
+    'title' => 'The International Conference on Recent Advances in Neurotraumatology',
     'association' => 'the Association of Indonesian Head and Neck Surgery ENT Specialists ',
-    'venue' => 'Lombok, West Nusa Tenggara, Indonesia ',
-    'date' => 'Oktober, 30th - November, 1st 2025',
+    'venue' => 'Four Points by Sheraton, Manado, North Sulawesi, Indonesia',
+    'date' => 'June, 11th - 14th, 2025',
     'register' => 'Register Now',
     'read_more' => 'Read More',
     'get_contact' => 'Get in touch with us',
     'use_link' => 'Usefull Links',
-    'event_date' => 'Oktober, 30th - November, 1st 2025',
+    'event_date' => 'June, 11th - 14th, 2025',
     'counter_day' => 'Days',
     'counter_hour' => 'Hours',
     'counter_minute' => 'Minutes',
