@@ -2,7 +2,7 @@
 
 return [
     'title' => 'Konferensi Internasional tentang Kemajuan Terkini dalam Neurotraumatologi',
-    'association' => 'Perhimpunan Dokter Spesialis THT Bedah Kepala dan Leher Indonesia',
+    'association' => 'Simposium dan Lokakarya',
     'venue' => 'Four Points by Sheraton, Manado, Sulawesi Utara, Indonesia',
     'register' => 'Daftar Sekarang',
     'read_more' => 'Baca Selengkapnya',
@@ -14,4 +14,6 @@ return [
     'counter_minute' => 'Menit',
     'counter_second' => 'Detik',
     'get_contact_us' => 'Hubungi kami untuk berita dan informasi terkini.',
+    'remaining' => 'Sisa Waktu',
+    'theme' => 'Neurotrauma: Mengintegrasikan Penelitian ke dalam Praktek Klinis',
 ];

@@ -2,7 +2,7 @@
 
 return [
     'title' => 'The International Conference on Recent Advances in Neurotraumatology',
-    'association' => 'the Association of Indonesian Head and Neck Surgery ENT Specialists ',
+    'association' => 'Symposium and Workshops',
     'venue' => 'Four Points by Sheraton, Manado, North Sulawesi, Indonesia',
     'date' => 'June, 11th - 14th, 2025',
     'register' => 'Register Now',
@@ -15,4 +15,6 @@ return [
     'counter_minute' => 'Minutes',
     'counter_second' => 'Seconds',
     'get_contact_us' => 'Contact us for the latest news and info.',
+    'remaining' => 'Time Remaining',
+    'theme' => 'Neurotrauma: Integrating Research into Clinical Practice',
 ];

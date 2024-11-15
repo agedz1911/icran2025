@@ -1,4 +1,4 @@
-<div class="top-0 z-50 sticky bg-icran-200 bg-opacity-70">
+<div class="lg:absolute bg-maroon-950 lg:bg-transparent sticky top-0 z-50 mx-auto w-full">
   <header class="site-header py-2 px-3" id="sticky-menu">
     <div class="container-default">
       <div class="flex items-center justify-between gap-x-8">
@@ -22,11 +22,11 @@
               <div class="mobile-menu-close">&times;</div>
             </div>
             <ul class="site-menu-main">
-              <li class="nav-item {{ request()->is('/') ? 'text-icran-800' : '' }}">
+              <li class="nav-item {{ request()->is('/') ? 'text-maroon-800' : '' }}">
                 <a href="/" class="nav-link-item">{{__('menu.home')}}</a>
               </li>
               <li
-                class="nav-item nav-item-has-children {{ request()->is('congress-information*') ? 'text-icran-800' : '' }}">
+                class="nav-item nav-item-has-children {{ request()->is('congress-information*') ? 'text-maroon-800' : '' }}">
                 <a href="javascript:void(0)" class="nav-link-item drop-trigger ">{{__('menu.congress-info')}} <i
                     class="fa-solid fa-angle-down"></i>
                 </a>
@@ -44,7 +44,7 @@
               </li>
 
               <li
-                class="nav-item nav-item-has-children {{ request()->is('scientific-program*') ? 'text-icran-800' : '' }}">
+                class="nav-item nav-item-has-children {{ request()->is('scientific-program*') ? 'text-maroon-800' : '' }}">
                 <a href="javascript:void(0)" class="nav-link-item drop-trigger">{{__('menu.program')}}
                   <i class="fa-solid fa-angle-down"></i>
                 </a>
@@ -57,12 +57,12 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item {{ request()->is('registration*') ? 'text-icran-800' : '' }}">
+              <li class="nav-item {{ request()->is('registration*') ? 'text-maroon-800' : '' }}">
                 <a href="javascript:void(0)" class="nav-link-item">{{__('menu.registration')}}
                   <i class="fa-solid fa-angle-down"></i>
                 </a>
               </li>
-              <li class="nav-item nav-item-has-children {{ request()->is('submission*') ? 'text-icran-800' : '' }}">
+              <li class="nav-item nav-item-has-children {{ request()->is('submission*') ? 'text-maroon-800' : '' }}">
                 <a href="javascript:void(0)" class="nav-link-item drop-trigger">{{__('menu.submission')}}
                   <i class="fa-solid fa-angle-down"></i>
                 </a>
@@ -144,7 +144,7 @@
           <!-- <a class="btn btn-perhati-500 md:hidden sm:inline-block py-4">Login</a> -->
           <!-- Responsive Offcanvas Menu Button -->
           <div class="block lg:hidden">
-            <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+            <button id="openBtn" class="hamburger-menu mobile-menu-trigger ">
               <span></span>
               <span></span>
               <span></span>

@@ -1,89 +1,84 @@
 <div class="">
     {{-- Start Hero --}}
-
     <div class="hero min-h-screen mb-0 bg-gradient-to-t from-maroon-900 to-icran-950">
         <div class="hero-overlay bg-opacity-20 bg-cover bg-[url('images/bg.png')]"></div>
         <div class="hero-content flex-col justify-start md:flex-row">
-            <div class="lg:w-[500px] lg:-mt-40">
-                <img src="images/logo/logo.png" class="max-w-sm" alt="">
+            <div class="max-w-2xl">
+                <img src="images/logo/logo-icon.png" class="w-36 lg:w-48" alt="">
                 <div class="flex flex-col gap-4 mt-5">
-                    <h1 class="text-4xl text-white font-semibold">{{ __('home.title') }} </h1>
-
-                    <p class="text-biscay-900">{{ __('home.venue') }} <br>
-                        {{ __('home.event_date') }}</p>
+                    <h1 class="text-4xl text-icran-100 font-semibold">{{ __('home.title') }} </h1>
+                    <h4 class="text-xl text-accent font-semibold tracking-wide italic">" {{ __('home.theme') }} "</h4>
+                    <p class="text-slate-50">{{ __('home.event_date') }} <br>{{ __('home.venue') }}</p>
                     <div class="flex flex-row gap-5">
-                        <button class="btn btn-info text-white">{{ __('home.register') }}</button>
-                        <button class="btn btn-outline hover:bg-info">{{ __('home.read_more') }}</button>
+                        <button class="btn btn-primary">{{ __('home.register') }}</button>
+                        <button class="btn btn-outline btn-accent">{{ __('home.read_more') }}</button>
                     </div>
                 </div>
             </div>
-            <!-- <img src="images/landing-new.png" class="lg:max-w-lg max-w-xs" /> -->
+            <img src="images/landing.png" class="lg:max-w-lg max-w-xs opacity-70" />
 
         </div>
     </div>
 
     {{-- End Hero --}}
-    <div class="md:-mt-20 mb-20 lg:mb-40 container mx-auto">
-        <div class="grid grid-cols-2  md:grid-cols-4 justify-items-center px-3 w-full gap-2  mt-5 md:mt-8"
-            id="countdown">
-            <div class="card lg:w-3/4 w-full bg-primary text-white shadow-xl">
+    <div class="md:-mt-12 mb-20 lg:mb-40 container mx-auto">
+        <div class="flex justify-center">
+            <div class="card lg:w-3/4 w-full bg-maroon-950 shadow-xl py-3 px-5">
                 <div class="card-body">
-                    <h2 class="card-title text-4xl justify-center" id="days"></h2>
-                    <p class="text-center">{{ __('home.counter_day') }}</p>
+                    <div class="flex flex-col md:flex-row justify-between ">
+                        <div class="text-center">
+                            <img src="images/logo/logo-dark.png" class="w-40 md:w-56" alt="">
+                            <p class="text-slate-50 tracking-widest">{{ __('home.remaining') }}</p>
+                        </div>
+                        <div class="grid grid-cols-2 md:grid-cols-7 items-center gap-2 justify-items-center">
+                            <div class="flex flex-col">
+                                <h2 class="text-center text-4xl lg:text-5xl text-white font-semibold" id="days">
+                                </h2>
+                                <p class="text-center text-accent">{{ __('home.counter_day') }}</p>
+                            </div>
+                            <p class="hidden md:block text-white">:</p>
+                            <div class="flex flex-col">
+                                <h2 class="text-center text-4xl lg:text-5xl text-white font-semibold" id="hours">
+                                </h2>
+                                <p class="text-center text-accent">{{ __('home.counter_hour') }}</p>
+                            </div>
+                            <p class="hidden md:block text-white">:</p>
+                            <div class="flex flex-col">
+                                <h2 class="text-center text-4xl lg:text-5xl text-white font-semibold" id="mins">
+                                </h2>
+                                <p class="text-center text-accent">{{ __('home.counter_minute') }}</p>
+                            </div>
+                            <p class="hidden md:block text-white">:</p>
+                            <div class="flex flex-col">
+                                <h2 class="text-center text-4xl lg:text-5xl text-white font-semibold" id="secs">
+                                </h2>
+                                <p class="text-center text-accent">{{ __('home.counter_second') }}</p>
+                                <div id="end"></div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="card bg-primary lg:w-3/4 w-full text-white shadow-xl">
-                <div class="card-body">
-                    <h2 class="card-title text-4xl justify-center" id="hours"></h2>
-                    <p class="text-center">{{ __('home.counter_hour') }}</p>
-                </div>
-            </div>
-            <div class="card bg-primary lg:w-3/4 w-full text-white shadow-xl">
-                <div class="card-body">
-                    <h2 class="card-title text-4xl justify-center" id="mins"></h2>
-                    <p class="text-center">{{ __('home.counter_minute') }}</p>
-                </div>
-            </div>
-            <div class="card bg-primary lg:w-3/4 w-full text-white shadow-xl">
-                <div class="card-body">
-                    <h2 class="card-title text-4xl justify-center" id="secs"></h2>
-                    <p class="text-center">{{ __('home.counter_second') }}</p>
-                </div>
-            </div>
-            <div id="end"></div>
         </div>
     </div>
 
     {{-- Start About --}}
     <div class="pb-24 px-4 mb-5 container mx-auto items-center">
-        <div class="flex flex-col gap-5 justify-between lg:flex-row">
-            <div class="mockup-window bg-gray-200 relative border w-full">
-                <div class="absolute right-0 px-4 top-3">
-                    <p class="text-black font-semibold"><i class="fa-solid fa-circle-dot text-green-500"></i> PERHATI-KL
-                    </p>
-                </div>
-                <div class="bg-gray-50 flex justify-center px-4 py-16">
-                    <iframe class="w-full rounded-lg" width="560" height="400"
-                        src="https://www.youtube.com/embed/EEwjG5WVJ98?si=Bxh9cjaYtqfO64no" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="w-full px-0 lg:pl-10 lg:py-5">
-                <h1 class="text-4xl mt-5 text-info font-bold">{{ __('home.title') }} </h1>
-                <h1 class="text-xl mt-5 text-info font-bold">{{ __('home.association') }}</h1>
-                {{-- <p class="text-slate-400 italic mt-5">"Theme: Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit "
-                </p> --}}
-                <div class="font-semibold mt-5 text-slate-500">
-                    <p>{{ __('home.venue') }} </p>
+        <div class="flex flex-col gap-5 items-center">
+            <div class="text-center max-w-5xl px-2 lg:pl-10 lg:py-5 ">
+                <h1 class="text-3xl mt-5 font-bold text-icran2-950">{{ __('home.title') }} (ICRAN 2024)</h1>
+                <h1 class="text-2xl mt-2 tracking-wide uppercase font-semibold">{{ __('home.association') }}</h1>
+                <p class="text-accent font-semibold tracking-wide italic mt-4">"{{ __('home.theme') }}"
+                </p>
+                <div class="font-semibold mt-5">
                     <p>{{ __('home.event_date') }}</p>
+                    <p>{{ __('home.venue') }} </p>
                 </div>
 
-                <div class="lg:mt-10 mt-5 flex items-center gap-4">
-                    <button class="btn w-1/3 btn-primary border-none text-white">{{ __('home.register') }}</button>
-                    <button class="btn w-1/3 btn-outline-primary ">{{ __('home.read_more') }}</button>
+                <div class="lg:mt-10 mt-5 flex justify-center items-center gap-4">
+                    {{-- <button class="btn w-1/3 btn-primary border-none text-white">{{ __('home.register') }}</button> --}}
+                    <button class="btn w-1/3 btn-primary ">{{ __('home.read_more') }}</button>
                 </div>
 
             </div>
@@ -138,11 +133,12 @@
                     class="btn btn-primary  text-center rounded-badge border w-full md:w-1/5">{{ __('home.read_more') }}
                     <i class="fa-solid fa-angles-right"></i></a>
             </div>
+            
         </div>
     </div>
-</div>
+
 {{-- Start Counter --}}
-{{-- <div class="bg-scroll bg-counter relative lg:px-20 px-5 py-52">
+<div class="bg-scroll bg-counter relative lg:px-20 px-5 py-52">
         <div
             class="grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-4 text-white justify-items-start lg:justify-items-center">
             <div class="flex items-center gap-5">
@@ -224,35 +220,35 @@
             </div>
 
         </div>
-    </div> --}}
+    </div>
 {{-- End Counter --}}
 {{-- Start Map --}}
-{{-- <div class="bg-local pt-40 pb-52 lg:px-20 px-5 bg-blog">
-        <div class="w-full mb-10">
-            <iframe class="w-full rounded-lg"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5968203715424!2d106.7951294746461!3d-6.184677660597026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f68da8842883%3A0x1b255ae63d716ca0!2sPusat%20Jantung%20Nasional%20Harapan%20Kita!5e0!3m2!1sid!2sid!4v1718088658161!5m2!1sid!2sid"
-                class="w-100" width="600" height="315" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="card w-full bg-primary-600 text-primary-content pt-5 pb-5">
-            <div class="card-body">
-                <div class="flex flex-col lg:flex-row items-center justify-between gap-5">
-                    <div class="flex items-center gap-3">
-                        <i class="fa-regular fa-envelope text-6xl text-white"></i>
-                        <h2 class="card-title text-xl md:text-4xl text-white">Subscribe for
-                            the Latest Updates</h2>
-                    </div>
-                    <form class="flex flex-col lg:flex-row gap-4 lg:w-1/2 w-full">
-
-                        <input type="text" placeholder="Enter Your Email"
-                            class="input input-bordered input-lg rounded-lg lg:w-2/3 w-full" />
-                        <button
-                            class="btn btn-outline-success text-primary-600  border-none hover:text-slate-100 btn-lg w-full lg:w-1/3 ">Submit</button>
-                    </form>
+<div class="bg-local pt-40 pb-52 lg:px-20 px-5 bg-blog">
+    <div class="w-full mb-10">
+        <iframe class="w-full rounded-lg"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5968203715424!2d106.7951294746461!3d-6.184677660597026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f68da8842883%3A0x1b255ae63d716ca0!2sPusat%20Jantung%20Nasional%20Harapan%20Kita!5e0!3m2!1sid!2sid!4v1718088658161!5m2!1sid!2sid"
+            class="w-100" width="600" height="315" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="card w-full bg-primary-600 text-primary-content pt-5 pb-5">
+        <div class="card-body">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-5">
+                <div class="flex items-center gap-3">
+                    <i class="fa-regular fa-envelope text-6xl text-white"></i>
+                    <h2 class="card-title text-xl md:text-4xl text-white">Subscribe for
+                        the Latest Updates</h2>
                 </div>
+                <form class="flex flex-col lg:flex-row gap-4 lg:w-1/2 w-full">
+
+                    <input type="text" placeholder="Enter Your Email"
+                        class="input input-bordered input-lg rounded-lg lg:w-2/3 w-full" />
+                    <button
+                        class="btn btn-outline-success text-primary-600  border-none hover:text-slate-100 btn-lg w-full lg:w-1/3 ">Submit</button>
+                </form>
             </div>
         </div>
-    </div> --}}
+    </div>
+</div>
 
 {{-- End Map --}}
 </div>
