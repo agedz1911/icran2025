@@ -3,7 +3,7 @@
 return [
     'home' => 'Home',
     'congress-info' => 'Congress Information',
-    'remarks' => 'Welcome Remarks',
+    'remarks' => 'Welcome Message',
     'committee' => 'Organizing Committee',
     'faculty' => 'Faculties',
     'program' => 'Scientific Program',

@@ -42,8 +42,8 @@
                 </div>
             </div>
             <div class="w-full flex items-start justify-center relative">
-                <img src="images/landing-new.png"
-                    class="max-w-sm rounded-lg lg:max-w-lg " />
+                {{-- <img src="images/landing-new.png"
+                    class="max-w-sm rounded-lg lg:max-w-lg " /> --}}
                 <div class="absolute glass p-2 rounded-lg top-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 cursor-pointer">
                     <p class="text-6xl text-perhati-600"><i class="fa-regular fa-circle-play"></i></p>
                 </div>

@@ -1050,8 +1050,8 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
     height: 100%;
 }
 
-.bg-blog {
-    background-image: url(/images/blog_bg.jpg);
+.bg-blog2 {
+    background-image: url(/images/blog_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

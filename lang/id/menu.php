@@ -3,7 +3,7 @@
 return [
     'home' => 'Beranda',
     'congress-info' => 'Informasi Kongres',
-    'remarks' => 'Kata Sambutan',
+    'remarks' => 'Pesan Selamat Datang',
     'committee' => 'Panitia penyelenggara',
     'faculty' => 'Pembicara',
     'program' => 'Program Ilmiah',

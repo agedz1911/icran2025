@@ -1,11 +1,11 @@
-<div class="lg:absolute bg-maroon-950 lg:bg-transparent sticky top-0 z-50 mx-auto w-full">
+<div class="lg:absolute bg-secondary sticky top-0 z-50 mx-auto w-full">
   <header class="site-header py-2 px-3" id="sticky-menu">
     <div class="container-default">
       <div class="flex items-center justify-between gap-x-8">
         <!-- Header Logo -->
         <div class="avatar">
-          <a href="/" class="h-14">
-            <img src="images/logo/logo-dark.png" alt="PERHATI" />
+          <a href="/" class="h-12 md:h-14">
+            <img src="images/logo/logo-light.png" alt="ICRAN" />
           </a>
         </div>
         <!-- Header Logo -->
@@ -83,8 +83,8 @@
         <!-- Header Navigation -->
 
         <!-- Header User Event -->
-        <div class="flex items-center gap-1">
-          <div class="dropdown dropdown-hover dropdown-end">
+        <div class="flex items-center ">
+          {{-- <div class="dropdown dropdown-hover dropdown-end">
             <div tabindex="0" role="button" class="btn btn-outline btn-sm">
               @if(app()->getLocale() == 'en')
                 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="w-4 h-4" preserveAspectRatio="xMidYMid meet" fill="#000000">
@@ -140,8 +140,8 @@
                 </a>
               </li>
             </ul>
-          </div>
-          <!-- <a class="btn btn-perhati-500 md:hidden sm:inline-block py-4">Login</a> -->
+          </div> --}}
+          <a class="btn btn-primary px-4 btn-sm md:mr-0 -mr-6">Login</a>
           <!-- Responsive Offcanvas Menu Button -->
           <div class="block lg:hidden">
             <button id="openBtn" class="hamburger-menu mobile-menu-trigger ">
