@@ -1,4 +1,4 @@
-<div class="bg-perhati-50 ">
+<div class="bg-icran2-50 bg-opacity-30">
     <div class="container mx-auto  border-b border-b-perhati-100">
         <div class="flex flex-col gap-5 justify-between px-3 py-3 lg:flex-row ">
             <div class="w-full lg:pt-20">
@@ -59,7 +59,7 @@
         <livewire:resources.welcome-remarks />
     </div>
 
-    <div class="bg-local bg-doctor pt-24 pb-52 lg:px-20 px-5" id="organizing-committee">
+    <div class="bg-doctor pt-24 pb-52 lg:px-20 px-5" id="organizing-committee">
         <div class="flex-col flex gap-3 mb-16">
             <h4 class="text-2xl text-primary-600 font-semibold">{{__('menu.congress-info')}}</h4>
             <h1 class="text-4xl text-primary-700 font-semibold">{{__('menu.committee')}}</h1>
@@ -67,7 +67,7 @@
         <livewire:resources.committee />
     </div>
 
-    <div class="bg-local pt-24 pb-52 lg:px-20 px-5 bg-doctor bg-primary-50" id="faculties">
+    <div class="bg-doctor pt-24 pb-52 lg:px-20 px-5" id="faculties">
         <div class="flex-col flex gap-3 mb-16">
             <h4 class="text-2xl text-primary-600 font-semibold">{{__('menu.congress-info')}}</h4>
             <h1 class="text-4xl text-primary-700 font-semibold">{{__('menu.faculty')}}</h1>

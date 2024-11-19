@@ -4,7 +4,7 @@
       <div class="flex items-center justify-between gap-x-8">
         <!-- Header Logo -->
         <div class="avatar">
-          <a href="/" class="h-12 md:h-14">
+          <a href="/" class="w-full md:h-14">
             <img src="images/logo/logo-light.png" alt="ICRAN" />
           </a>
         </div>
@@ -141,7 +141,7 @@
               </li>
             </ul>
           </div> --}}
-          <a class="btn btn-primary px-4 btn-sm md:mr-0 -mr-6">Login</a>
+          <a class="btn btn-primary px-4 btn-sm md:mr-0 -mr-6">Contact us</a>
           <!-- Responsive Offcanvas Menu Button -->
           <div class="block lg:hidden">
             <button id="openBtn" class="hamburger-menu mobile-menu-trigger ">

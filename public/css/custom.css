@@ -1051,7 +1051,7 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
 }
 
 .bg-blog2 {
-    background-image: url(/images/blog_bg.png);
+    background-image: url(/images/blog_bg.png), linear-gradient(to bottom , #282561, #460f2e);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1075,7 +1075,7 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
     background-image: url(/images/doctors_bg_1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
 }
 .bg-counter {
     /* background-color: rgba(49, 49, 49, 0.5); */
