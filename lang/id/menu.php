@@ -13,4 +13,5 @@ return [
     'submission' => 'Penyerahan',
     'guide-abstract' => 'Pedoman Abstrak',
     'abstract' => 'Penyerahan Abstrak',
+    'venue' => 'Lokasi',
 ];

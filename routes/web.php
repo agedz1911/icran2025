@@ -5,6 +5,7 @@ use App\Livewire\Pages\CongressInformation;
 use App\Livewire\Pages\Registration;
 use App\Livewire\Pages\ScientificProgram;
 use App\Livewire\Pages\Submission;
+use App\Livewire\Pages\Venue;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,6 +38,8 @@ Route::prefix('/submission')->group(function () {
 });
 
 Route::get('/registration', Registration::class);
+
+Route::get('/venue', Venue::class);
 
 Route::get('locale/{locale}', function ($locale) {
     app()->setLocale($locale);

@@ -13,4 +13,5 @@ return [
     'submission' => 'Submission',
     'guide-abstract' => 'Guideline for Abstract',
     'abstract' => 'Abstract Submission',
+    'venue' => 'Venue',
 ];

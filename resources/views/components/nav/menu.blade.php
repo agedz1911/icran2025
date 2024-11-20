@@ -75,6 +75,19 @@
                   </li>
                 </ul>
               </li>
+              <li class="nav-item nav-item-has-children {{ request()->is('venue*') ? 'text-maroon-800' : '' }}">
+                <a href="/venue" class="nav-link-item drop-trigger">{{__('menu.venue')}}
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                {{-- <ul class="sub-menu" id="submenu-11">
+                  <li class="sub-menu--item">
+                    <a href="javascript:void(0)">{{__('menu.guide-abstract')}}</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="javascript:void(0)">{{__('menu.abstract')}}</a>
+                  </li>
+                </ul> --}}
+              </li>
 
 
             </ul>

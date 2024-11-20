@@ -1,5 +1,5 @@
 <div class="bg-icran2-50 bg-opacity-30">
-    <div class="container mx-auto  border-b border-b-perhati-100">
+    {{-- <div class="container mx-auto  border-b border-b-perhati-100">
         <div class="flex flex-col gap-5 justify-between px-3 py-3 lg:flex-row ">
             <div class="w-full lg:pt-20">
                 <img src="images/logo/logo.png" class="max-w-xs" />
@@ -42,27 +42,27 @@
                 </div>
             </div>
             <div class="w-full flex items-start justify-center relative">
-                {{-- <img src="images/landing-new.png"
-                    class="max-w-sm rounded-lg lg:max-w-lg " /> --}}
+                <img src="images/landing-new.png"
+                    class="max-w-sm rounded-lg lg:max-w-lg " />
                 <div class="absolute glass p-2 rounded-lg top-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 cursor-pointer">
                     <p class="text-6xl text-perhati-600"><i class="fa-regular fa-circle-play"></i></p>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
-    <div class=" pt-20 pb-20  lg:px-20 px-5  bg-primary-50" id="welcome-remarks">
-        <div class="flex-col flex gap-3 mb-16">
-            <h4 class="text-2xl text-sky-600 font-semibold">{{__('menu.congress-info')}}</h4>
+    <div class="pt-20 pb-20 lg:px-20 px-5 bg-doctor " id="welcome-remarks">
+        <div class="flex-col flex gap-3 mb-10">
+            <h4 class="text-2xl text-accent font-semibold">{{__('menu.congress-info')}}</h4>
             <h1 class="text-4xl text-primary font-semibold">{{__('menu.remarks')}}</h1>
         </div>
         <livewire:resources.welcome-remarks />
     </div>
 
-    <div class="bg-doctor pt-24 pb-52 lg:px-20 px-5" id="organizing-committee">
+    <div class="bg-doctor bg-local pt-24 pb-52 lg:px-20 px-5" id="organizing-committee">
         <div class="flex-col flex gap-3 mb-16">
-            <h4 class="text-2xl text-primary-600 font-semibold">{{__('menu.congress-info')}}</h4>
-            <h1 class="text-4xl text-primary-700 font-semibold">{{__('menu.committee')}}</h1>
+            <h4 class="text-2xl text-accent font-semibold">{{__('menu.congress-info')}}</h4>
+            <h1 class="text-4xl text-primary font-semibold">{{__('menu.committee')}}</h1>
         </div>
         <livewire:resources.committee />
     </div>

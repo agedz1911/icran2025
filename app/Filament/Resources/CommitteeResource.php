@@ -6,12 +6,14 @@ use App\Filament\Resources\CommitteeResource\Pages;
 use App\Filament\Resources\CommitteeResource\RelationManagers;
 use App\Models\Committee;
 use Filament\Forms;
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Concerns\Translatable;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
@@ -36,8 +38,9 @@ class CommitteeResource extends Resource
                 TextInput::make('title'),
                 TextInput::make('category'),
                 TextInput::make('no_urut'),
-                SpatieMediaLibraryFileUpload::make('image')
-                    ->collection('committee'),
+                FileUpload::make('image')->directory('Committee')
+                // SpatieMediaLibraryFileUpload::make('image')
+                //     ->collection('committee'),
             ]);
     }
 
@@ -50,8 +53,10 @@ class CommitteeResource extends Resource
                 TextColumn::make('title'),
                 TextColumn::make('category')->limit(20),
                 TextColumn::make('no_urut')->sortable(),
-                SpatieMediaLibraryImageColumn::make('image')
-                    ->collection('committee'),
+                ImageColumn::make('image')
+                
+                // SpatieMediaLibraryImageColumn::make('image')
+                //     ->collection('committee'),
             ])
             ->filters([
                 //
