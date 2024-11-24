@@ -1073,9 +1073,9 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
 
 .bg-doctor {
     background-image: url(/images/doctors_bg_1.png);
-    background-size: contain, cover;
+    background-size: contain;
     background-repeat: repeat-y;
-    background-position: left top;
+    background-position: right;
 }
 .bg-counter {
     /* background-color: rgba(49, 49, 49, 0.5); */

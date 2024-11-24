@@ -9,7 +9,7 @@ class Committee extends Component
 {
     public function render()
     {
-        $committees = ModelsCommittee::orderBy('no_urut', 'asc')->get();
+        $committees = ModelsCommittee::orderBy('no_urut', 'desc')->get();
         $uniqueCategories = $committees->pluck('category')->unique();
         return view('livewire.resources.committee', ['committees' => $committees, 'uniqueCategories' => $uniqueCategories]);
     }

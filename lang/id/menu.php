@@ -14,4 +14,6 @@ return [
     'guide-abstract' => 'Pedoman Abstrak',
     'abstract' => 'Penyerahan Abstrak',
     'venue' => 'Lokasi',
+    'visa' => 'Peraturan Visa',
+    'visit' => 'Mengunjungi',
 ];

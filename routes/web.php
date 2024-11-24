@@ -32,12 +32,17 @@ Route::prefix('/scientific-program')->group(function () {
     Route::get('#schedule', ScientificProgram::class);
 });
 Route::prefix('/submission')->group(function () {
-    Route::get('/', Submission::class);
     Route::get('/#guideline-abstract', Submission::class);
     Route::get('/#submission', Submission::class);
 });
 
 Route::get('/registration', Registration::class);
+
+Route::prefix('/venue')->group(function () {
+    Route::get('#visa-regulation', Venue::class);
+    Route::get('#venue', Venue::class);
+    Route::get('#manado', Venue::class);
+});
 
 Route::get('/venue', Venue::class);
 
