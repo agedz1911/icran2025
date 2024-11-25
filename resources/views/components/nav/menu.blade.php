@@ -1,4 +1,4 @@
-<div class="lg:absolute bg-secondary sticky top-0 z-50 mx-auto w-full">
+<div class="bg-secondary sticky top-0 z-50 mx-auto w-full">
   <header class="site-header py-2 px-3" id="sticky-menu">
     <div class="container-default">
       <div class="flex items-center justify-between gap-x-8">
@@ -81,10 +81,10 @@
                 </a>
                 <ul class="sub-menu" id="submenu-11">
                   <li class="sub-menu--item">
-                    <a href="/venue#visa">Manado</a>
+                    <a href="/venue#manado">Manado</a>
                   </li>
                   <li class="sub-menu--item">
-                    <a href="/venue#venue">Four Points ({{__('menu.venue')}})</a>
+                    <a href="/venue#venue">{{__('menu.venue')}}</a>
                   </li>
                   <li class="sub-menu--item">
                     <a href="/venue#visa-regulation">{{__('menu.visa')}}</a>

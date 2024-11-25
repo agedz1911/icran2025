@@ -13,7 +13,7 @@ return [
     'submission' => 'Penyerahan',
     'guide-abstract' => 'Pedoman Abstrak',
     'abstract' => 'Penyerahan Abstrak',
-    'venue' => 'Lokasi',
-    'visa' => 'Peraturan Visa',
+    'venue' => 'Tempat Konferensi',
     'visit' => 'Mengunjungi',
+    'visa' => 'Peraturan Visa',
 ];

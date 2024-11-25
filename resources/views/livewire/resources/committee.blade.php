@@ -3,7 +3,7 @@
         @if (count($committees) > 0)
         @foreach ($uniqueCategories as $category)
         <h1 class="font-semibold text-center mb-5 text-primary text-2xl">{{ $category }}</h1>
-        <div class="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-5">
+        <div class="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-5 mb-10">
             @foreach ($committees as $committee)
             @if ($committee->category == $category)
             <div class="card card-compact shadow-md bg-icran-50 bg-opacity-45 w-80">

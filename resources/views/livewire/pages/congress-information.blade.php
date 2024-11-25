@@ -7,7 +7,7 @@
         <livewire:resources.welcome-remarks />
     </div>
 
-    <div class="bg-doctor bg-local pt-24 pb-52 lg:px-20 px-2" id="organizing-committee">
+    <div class="bg-doctor bg-local pt-20 pb-52 lg:px-20 px-2" id="organizing-committee">
         <div class="flex-col flex gap-3 mb-16">
             <h4 class="text-2xl text-accent font-semibold">{{__('menu.congress-info')}}</h4>
             <h1 class="text-4xl text-primary font-semibold">{{__('menu.committee')}}</h1>

@@ -193,8 +193,8 @@
                 <h1 class="text-2xl  mt-0 text-accent font-semibold tracking-wider">Manado, Indonesia</h1>
             </div>
             <div class="w-full">
-                <p class="text-white">Bali has developed into a world of its own. It captures not only what is special about Indonesia, but embodies a unique spirit that can only be found on the island.</p>
-                <p class="text-xs font-semibold mt-2 float-end text-accent tracking-wide underline">Read More<i class="fa-solid fa-angles-right"></i></p>
+                <p class="text-white"><span class="text-accent">Manado</span> is the capital city of the Indonesian province of North Sulawesi. It is the second largest city in Sulawesi, Manado is among Indonesia's top-five tourism priorities and Bunaken National Park is one of the city's most famous tourist attractions.</p>
+                <a href="/venue#manado" class="text-xs font-semibold mt-2 float-end text-accent tracking-wide underline">Read More<i class="fa-solid fa-angles-right"></i></a>
             </div>
         </div>
     </div>

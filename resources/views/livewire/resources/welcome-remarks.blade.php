@@ -2,24 +2,23 @@
     @foreach ($messages as $message)
     <div class="flex flex-col md:flex-row justify-between border-b py-10 gap-10">
         <div class="flex flex-col items-center lg:pb-10 justify-start">
-            <div class="card card-compact glass w-96 shadow-xl relative">
+            <div class="card card-compact glass w-96 shadow-md relative">
                 <figure>
-                    @if ($message->getMedia('welcomeMessage')->isEmpty())
-                    <div class="h-96">
-                        <div class="bg-gradient-to-b from-icran-500 to-icran-200 rounded-md">
+                    {{-- <p>{{$message->image}}</p> --}}
+                    @if ($message->image == null )
+                    <div class="avatar">
+                        <div class="bg-gradient-to-b from-icran-500 to-icran-200 rounded-md w-full">
                             <img src="{{ asset('images/speakers.jpg') }}" alt="Default Doctor Image"
                                 class="object-cover rounded-lg " />
                         </div>
                     </div>
                     @else
-
-                    <div class="h-96">
-                        <div class=" rounded-md bg-gradient-to-b from-icran-500 to-icran-200">
+                    <div class="avatar">
+                        <div class=" rounded-md bg-gradient-to-b from-icran-500 to-icran-200 w-full">
                             <img src="{{ asset('storage/' . $message->image) }}"
                                 class="object-cover rounded-lg" alt="{{ $message->name }}" />
                         </div>
                     </div>
-
                     @endif
                 </figure>
                 <div class="card-body">
