@@ -27,7 +27,7 @@
                             :class="{'text-white bg-icran2-900 dark:bg-icran2-900': selectedTab === 'bunaken', 'hover:text-gray-900 bg-primary hover:bg-gray-100 dark:bg-primary dark:hover:bg-gray-700 dark:hover:text-white': selectedTab !== 'bunaken'}"
                             class="inline-flex items-center px-4 py-3 rounded-lg w-full"
                             role="tab" aria-selected="selectedTab === 'bunaken'">
-                            <i class="w-4 h-4 me-2 text-white fa-solid fa-umbrella-beach"></i>
+                            <i class="w-4 h-4 me-2  fa-solid fa-umbrella-beach"></i>
                             Bunaken
                         </a>
                     </li>
@@ -36,7 +36,7 @@
                             :class="{'text-white bg-icran2-900 dark:bg-icran2-900': selectedTab === 'toraja', 'hover:text-gray-900 bg-primary hover:bg-gray-100 dark:bg-primary dark:hover:bg-gray-700 dark:hover:text-white': selectedTab !== 'toraja'}"
                             class="inline-flex items-center px-4 py-3 rounded-lg w-full"
                             role="tab" aria-selected="selectedTab === 'toraja'">
-                            <i class="w-4 h-4 me-2 text-white fa-solid fa-mug-hot"></i>
+                            <i class="w-4 h-4 me-2  fa-solid fa-mug-hot"></i>
                             Toraja Coffee
                         </a>
                     </li>
@@ -52,10 +52,10 @@
                                     <p>Bunaken National Park extends over an area of 890.65 km2 of which only 3% is terrestrial, including Bunaken Island, as well as the islands of Manado Tua, Mantehage, Nain and Siladen.</p>
                                 </div>
                                 <div class="w-full lg:w-5/12 flex flex-col gap-3 mb-4">
-                                    <img src="images/manado/lobby.png" alt="">
+                                    <img src="images/manado/bunaken1.jpg" class="w-full rounded-md shadow" alt="">
                                 </div>
                                 <div class="w-full lg:w-5/12 flex flex-col gap-3 mb-4">
-                                    <img src="images/manado/lobby.png" alt="">
+                                    <img src="images/manado/bunaken2.jpg" class="w-full rounded-md shadow" alt="">
                                 </div>
                                 <div class="w-full lg:w-1/2 flex flex-col gap-3 mb-4">
                                     <p>The waters of Bunaken National Marine Park are up to 1,566 m deep in Manado Bay, with temperatures ranging between 27 and 29 °C. It has a high diversity of - corals, fish, echinoderms and sponges. Notably, 7 of the 8 species of giant clams that occur in the world, occur in Bunaken. It also claims to have seven times more genera of coral than Hawaii,[1] and has more than 70% of all the known fish species of the Indo-Western Pacific.</p>
@@ -74,10 +74,10 @@
                                     <p>Cultivated in the mountainous region of Toraja, at altitudes ranging from 1,400 to 2,100 meters above sea level, Toraja Coffee benefits from ideal growing conditions. The volcanic soil, cool climate, and traditional farming methods passed down through generations create beans of exceptional quality.</p>
                                 </div>
                                 <div class="w-full lg:w-5/12 flex flex-col gap-3 mb-4">
-                                    <img src="images/manado/lobby.png" alt="">
+                                    <img src="images/manado/kopi1.jpg" class="w-full rounded-md shadow" alt="">
                                 </div>
                                 <div class="w-full lg:w-5/12 flex flex-col gap-3 mb-4">
-                                    <img src="images/manado/lobby.png" alt="">
+                                    <img src="images/manado/kopi2.webp" class="w-full rounded-md shadow" alt="">
                                 </div>
                                 <div class="w-full lg:w-1/2 flex flex-col gap-3 mb-4">
                                     <h3 class="text-lg font-bold">Flavor Profile</h3>
