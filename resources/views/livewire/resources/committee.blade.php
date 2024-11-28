@@ -17,7 +17,7 @@
                     </div>
                     @else
                     <div class="avatar">
-                        <div class="w-full">
+                        <div class="w-full bg-icran2-50">
                             <img src="{{ asset('storage/' . $committee->image) }}" class="object-cover rounded-lg" alt="{{ $committee->name }}" />
                         </div>
                     </div>
