@@ -1,5 +1,6 @@
 <div>
     @if (count($faculties) > 0)
+
         <div class="flex items-center justify-center">
             <div x-data="{ openTab: 1 }" class="w-full mx-auto">
                 <div class="">
@@ -14,7 +15,7 @@
 
                     <div x-show="openTab === 1"
                         class="transition-all duration-300 bg-white bg-opacity-60 p-4 rounded-lg shadow-md border-x-4 border-primary">
-                        <div class="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-2">
+                        <div class="flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-2">
                             @foreach ($faculties->where('country', '!=', 'Indonesia')->sortBy('name') as $faculty)
                                 <div class="card card-compact bg-icran-50 w-80 shadow-md">
                                     <figure class="">
@@ -22,7 +23,7 @@
                                             <div class="avatar p-3">
                                                 <div
                                                     class="rounded-full ring ring-icran-950 ring-offset-base-100 ring-offset-4">
-                                                    <img src="{{ asset('images/doctor.png') }}"
+                                                    <img src="{{ asset('images/speakers.jpg') }}"
                                                         alt="Default Doctor Image" class="rounded-lg" />
                                                 </div>
                                             </div>
@@ -50,7 +51,7 @@
 
                     <div x-show="openTab === 2"
                         class="transition-all duration-300 bg-white bg-opacity-60 p-4 rounded-lg shadow-md border-x-4 border-primary">
-                        <div class="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-2">
+                        <div class="flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-2">
                             @foreach ($faculties->where('country', 'Indonesia')->sortBy('name') as $faculty)
                                 <div class="card card-compact bg-icran-50 w-80 shadow-md">
                                     <figure class="">
@@ -58,7 +59,7 @@
                                             <div class="avatar p-3">
                                                 <div
                                                     class="rounded-full ring ring-icran-950 ring-offset-base-100 ring-offset-4">
-                                                    <img src="{{ asset('images/doctor.png') }}"
+                                                    <img src="{{ asset('images/speakers.jpg') }}"
                                                         alt="Default Doctor Image" class="rounded-lg" />
                                                 </div>
                                             </div>
@@ -77,7 +78,6 @@
                                         <h2 class="card-title text-primary hover:cursor-pointer hover:text-accent">
                                             {{ $faculty->name }}
                                         </h2>
-                                        <p class="">{{ $faculty->country }}</p>
                                     </div>
                                 </div>
                             @endforeach
@@ -87,6 +87,7 @@
                 </div>
             </div>
         </div>
+        <p class="italic tracking-wider text-sm font-semibold">*Within Confirmation</p>
     @else
         <div>
             <p class="text-gray-500 text-2xl text-center font-semibold">No Data</p>
