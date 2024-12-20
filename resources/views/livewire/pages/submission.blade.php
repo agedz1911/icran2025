@@ -1,168 +1,132 @@
-<div class="bg-slate-50">
-    <div class="bg-local pt-20 pb-52 lg:px-20 px-5 bg-blog" id="guideline-abstract">
+<div class="">
+    <div class="bg-doctor pt-20 pb-52 lg:px-20 px-5" id="guideline">
         <div class="flex-col flex gap-3 mb-10">
             <h4 class="text-2xl text-primary-600 font-semibold">Submission</h4>
             <h1 class="text-4xl text-primary-700 font-semibold">Guideline for Abstracts</h1>
         </div>
-        <div class="bg-white border border-gray-200 divide-y divide-gray-200 rounded-lg">
+        <div class="bg-zinc-50 border border-gray-200 divide-y divide-gray-200 rounded-lg">
             <details class="p-6 group" open>
                 <summary class="flex items-center justify-between cursor-pointer">
                     <h5 class="text-xl font-semibold text-primary-900">
-                        General Information
+                        Abstract Guideline
                     </h5>
                     <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
                         <i class="fa-solid fa-eye absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"></i>
                         <i class="fa-solid fa-eye-slash absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"></i>
                     </span>
                 </summary>
-                <ul class="mt-4 leading-relaxed text-slate-500 list-disc px-10">
-                    <li>All abstracts must be written in the English Language.</li>
-                    <li>The 36th WECOC 2024 welcomes abstracts in all areas applied with 3 categories:
-                        original research, meta-analysis/systematic review, and case report/series</li>
-                    <li>Abstracts of literature review and evidence-based case report (EBCR) are not accepted</li>
-                    <li>The submitted abstract must fall into one of these categories:
-                        <ul class="list-item mx-3">
-                            <li>a. Arrhythmia/Electrophysiology</li>
-                            <li>b. Cardiac Prevention/Rehabilitation</li>
-                            <li>c. ACS/Acute Cardiac Care</li>
-                            <li>d. Echo/Imaging</li>
-                            <li>e. Heart Failure/Pulmonary Hypertension</li>
-                            <li>f. Vascular</li>
-                            <li>g. Congenital Heart Disease</li>
-                            <li>h. Hypertension, Diabetes, Metabolic Syndrome, etc</li>
-                            <li>i. Interventional Cardiology</li>
-                        </ul>
+                <h4 class="mt-4 font-bold">General Information</h4>
+                <ul class="mt-2 leading-relaxed text-slate-500 list-disc px-10">
+                    <li>Abstracts must be submitted and presented in English</li>
+                    <li>You should only submit work if you, or a designee, are committed to registering for and
+                        attending the Congress to give your Oral or E-Poster presentation</li>
+                    <li>Registration is not mandatory in the submission process; however, all Presenting Authors must
+                        register for the Congress deadline by (....) , otherwise, the abstract will not be included in
+                        the
+                        final Congress program</li>
+                    <li>There is no limit to the number of abstracts you may submit, however, the Abstract Selection
+                        Committee aims to achieve a wide geographic spread of presenters</li>
+                    <li>There are 2 presentation types: Oral and E-Poster. You may indicate your preference, but the
+                        Abstract Selection Committee will make the final format determination
                     </li>
-                    <li>Summary of Important Dates:
-                        <ul class="list-item mx-3">
-                            <li>a. Open Submission: 2 August 2024</li>
-                            <li>b. Close Submission: 30 August 2024</li>
-                            <li>c. Review and Grading Score: 31 August 2024 – 27 September 2024</li>
-                            <li>d. Notification of Acceptance: 28 September 2024</li>
-
-                        </ul>
-                    </li>
-                    <li>Presenting author whose abstract is accepted must be registered as a participant in the
-                        symposium and/or workshop of the 36th WECOC 2024</li>
-                    <li>However, to be able to submit abstracts, you are only required to register on our website
-                        and make an account</li>
-                    <li>Abstracts must be submitted using the online form on the WECOC official website</li>
-                    <li>Submissions via e-mail, paper, or fax will be rejected.</li>
+                    <li>Abstracts cannot contain advertising, trade names, or product group messages. Please use generic
+                        names or terms in your abstract content</li>
                 </ul>
-
-            </details>
-
-            <details class="p-6 group">
-                <summary class="flex items-center justify-between cursor-pointer">
-                    <h5 class="text-xl font-semibold text-primary-900">
-                        Abstract Format and Guideline
-                    </h5>
-
-                    <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
-                        <i class="fa-solid fa-eye absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"></i>
-                        <i class="fa-solid fa-eye-slash absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"></i>
-                    </span>
-                </summary>
-
-                <ul class="list-decimal px-10 mt-4 leading-relaxed text-slate-500">
-                    <li><span class="font-semibold text-slate-800"> Original research, Meta-analysis/Systematic review</span>
-                        <ul class="list-disc mx-5">
-                            <li>The abstract must be uploaded using an A4 paper size, in the format of Microsoft
-                                Word (.docx), font type: Times New Roman/Arial/Calibri 11pt</li>
-                            <li>Articles should use justify as the paragraph style (align left and right), be typed
-                                1.5-spaced, and leave a 2.5-cm margin on all sides</li>
-                            <li>The title and subtitle should be in bold</li>
-                            <li>The authors’ names must adhere to the following format: first & last name written
-                                in full, middle name written as initials (e.g., James B. Brown) with affiliations</li>
-                            <li>The abstract should not be exceeded 300 words (excluding the title, authors, and
-                                affiliations)</li>
-                            <li>A maximum of 1 figure OR table is allowed to be included in the articles (in the
-                                form of PNG, JPEG, or JPG)</li>
-                            <li>The abstract of the original article should be presented in structured abstract as
-                                below:
-                                <ul class="list-outside ml-3    ">
-                                    <li>a. Introduction: rationale for the study</li>
-                                    <li>b. Methods: a brief description of the study design and key methods</li>
-                                    <li>c. Results: succinct presentation of key results; please include sample size
-                                        throughout</li>
-                                    <li>d. Conclusion: succinct statement of data interpretation</li>
-                                    <li>e. Keywords (no more than 5)</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><span class="font-semibold text-slate-800">Case report/series</span>
-                        <ul class="list-disc ml-5">
-                            <li>The abstract must be uploaded using an A4 paper size, in the format of Microsoft
-                                Word (.docx), font type: Times New Roman/Arial/Calibri 11pt</li>
-                            <li>Articles should use justify as the paragraph style (align left and right), be typed
-                                1.5-spaced, and leave a 2.5-cm margin on all sides</li>
-                            <li>The title and subtitle should be in bold</li>
-                            <li>The authors’ names must adhere to the following format: first & last name written
-                                in full, middle name written as initials (e.g., James B. Brown) with affiliations</li>
-                            <li>The abstract should not be exceeded 300 words (excluding the title, authors, and
-                                affiliations)</li>
-                            <li>A maximum of 1 figure OR table is allowed to be included in the articles (in the
-                                form of PNG, JPEG, or JPG)</li>
-                            <li>The case report/series should be presented in sections – namely
-                                <ul class="list-outside ml-3    ">
-                                    <li>a. Introduction</li>
-                                    <li>b. Case illustration</li>
-                                    <li>c. Conclusion</li>
-                                    <li>d. Keywords (no more than 5)</li>
-                                </ul>
-                            </li>
-                            <li>Discussion is not required; however, if needed can be merged into the ‘case
-                                illustration’ section with the same word limit of 300</li>
-                        </ul>
-                    </li>
-
-                </ul>
-
-            </details>
-
-            <details class="p-6 group">
-                <summary class="flex items-center justify-between cursor-pointer">
-                    <h5 class="text-xl font-semibold text-primary-900">
-                        Moderated Poster Session
-                    </h5>
-
-                    <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
-                        <i class="fa-solid fa-eye absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"></i>
-                        <i class="fa-solid fa-eye-slash absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"></i>
-                    </span>
-                </summary>
-
-                <p class="mt-4 font-semibold leading-relaxed text-slate-800">
-                    Technical Details
+                <h4 class="mt-4 font-bold">Information Required to Complete a Submission</h4>
+                <p class="mt-2 leading-relaxed text-slate-500 px-4">Submitting Author: The author that submits the
+                    abstract, to whom all correspondence will be addressed
+                    and sent. The Submitting Author is assumed to be the Presenting Author unless otherwise indicated
                 </p>
-                <ul class="list-disc text-slate-500 pl-10">
-                    <li>The presenter of the MP session should be registered as a participant and completed
-                        the payment in the 36th WECOC 2024 symposium and/or workshop. Otherwise, your
-                        paper cannot be presented in this <meeting></meeting>
+                <ul class="mt-2 leading-relaxed text-slate-500 list-disc px-10">
+                    <li>Title (maximum 20 words)</li>
+                    <li>Keywords (maximum 4)</li>
+                    <li>Abstract body (maximum 300 words, including the following sections)</li>
+                    <li>Objectives: At least 2 clear and measurable objectives</li>
+                    <li>Background: A brief statement on why the study was conducted</li>
+                    <li>Methods: The methods of study or experimental approach must be briefly defined</li>
+                    <li>Results: A summary of the study results, including sufficient detail to support the conclusions
                     </li>
-                    <li>Materials and the content of the presentation should be written and delivered in English</li>
-                    <li>The presenter is not required to make an abstract poster, but instead please make short
-                        PowerPoint slides</li>
-                    <li>Each presenter will be grouped into several sessions and must be present during his/her
-                        entire session</li>
-                    <li>Failure to adhere to the given deadline and guidelines will automatically result in
-                        elimination</li>
-                    <li>Failure to attend the session will automatically result in elimination. If the first author
-                        could not attend the session with justified reason, the co-author may present on behalf of
-                        first author</li>
-                    <li>The presenter must stand by within 30 minutes before their assigned session starts</li>
-                    <li>The maximum duration of the presentation is 6 minutes, followed by 4 minutes of
-                        discussion</li>
-                    <li>The link for the meeting, timetable, and order of presentation will be sent via Whatsapp
-                        application to the registered number or via e-mail</li>
-                    <li>Further instruction will be floored in the Whatsapp Group</li>
-                    <li>All winners will be announced during the Closing Ceremony of the 36nd WECOC 2024</li>
-                    <li>The decision of the judges are final and cannot be contested</li>
+                    <li>Conclusions: A statement explaining the significance of the study and its implications for
+                        further research</li>
+                    <li>Authors (maximum 11): Include full names with institution and country</li>
+                    <li>Preferred Presentation Type: You may indicate your preferred presentation type– Oral or E-Poster
+                        – but the Abstract Selection Committee will make the final format determination</li>
+                    <li>Disclose conflict of interest and accept terms and conditions</li>
                 </ul>
+                <h4 class="mt-4 font-bold">Editing</h4>
+                <p class="mt-2 leading-relaxed text-slate-500 px-4">Abstracts may be edited until the submission
+                    deadline. After that, no changes in content or co-authors may be made. Once the review process
+                    begins, no changes to submissions are allowed – no exceptions</p>
+                <p class="mt-2 leading-relaxed text-slate-500 px-4">Please note that any typographical or spelling
+                    errors, improperly formatted titles, etc., WILL NOT be edited by anyone at the Organizing Committee.
+                    It is the responsibility of the Submitting Author to review and verify all work submitted</p>
             </details>
 
             <details class="p-6 group">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h5 class="text-xl font-semibold text-primary-900">
+                        Abstract Selection
+                    </h5>
+
+                    <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                        <i class="fa-solid fa-eye absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"></i>
+                        <i class="fa-solid fa-eye-slash absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"></i>
+                    </span>
+                </summary>
+
+                <p class="mt-4 leading-relaxed text-slate-500 px-4">Abstracts will be reviewed by the Scientific
+                    Committee to ensure that high-quality scientific submissions are selected for presentation at the
+                    Congress. The following criteria will be used to accept the abstracts:</p>
+                <ul class="list-disc px-10 mt-2 leading-relaxed text-slate-500">
+                    <li>Significance of the abstract for neurosurgery </li>
+                    <li>Innovativeness of ideas, methods, and/or approach</li>
+                    <li>The Rigor of methods and approach (analytical design for research, systematic approach for
+                        practice and/or policy)</li>
+                    <li>Presentation of empirical findings (not applicable if the abstract does not present empirical
+                        research)</li>
+                    <li>Implications identified for future research, practice, and/or policy</li>
+                    <li>Clarity of writing</li>
+                </ul>
+                <p class="mt-2 leading-relaxed text-slate-500 px-4">Notification of the Abstract Selection Committee’s
+                    decision will be sent by (....) via email to the Submitting Author, regardless of the
+                    outcome</p>
+            </details>
+
+            <details class="p-6 group">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h5 class="text-xl font-semibold text-primary-900">
+                        Registration/Attendance Requirement
+                    </h5>
+
+                    <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                        <i class="fa-solid fa-eye absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"></i>
+                        <i class="fa-solid fa-eye-slash absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"></i>
+                    </span>
+                </summary>
+
+                <p class="mt-4 leading-relaxed text-slate-500 px-4">
+                    The Presenting Author (Oral or E-Poster) must register for and attend the Congress. Registration
+                    must be completed by (....). If a Presenting Author does not register by the deadline, all accepted
+                    abstracts by that Presenting Author will be removed from the program.
+                </p>
+                <p class="mt-2 leading-relaxed text-slate-500 px-4">If the originally designated Presenting Author is
+                    unable to attend the Congress, a “Change of Presenting Author Form” (request from
+                    icran2025@pharma-pro.com) must be completed and submitted by (....)
+                </p>
+                <p class="mt-2 leading-relaxed text-slate-500 px-4">
+                    The new Presenting Author must then fulfil the registration requirement, or the abstract will be
+                    removed from the program. No changes will be made without receipt of the completed Change of
+                    Presenting Author Form, including updated disclosure information
+                </p>
+                <p class="mt-2 leading-relaxed text-slate-500 px-4">After the changes, all correspondence will then be
+                    addressed and sent to the new Presenting Author.
+                </p>
+                <p class="text-2xl px-2 mt-2 font-semibold text-slate-500">Need Assistance?</p>
+
+                <p class="mt-2 leading-relaxed text-slate-500 px-4">Please contact the Program Secretariat at <a href="mailto:icran2025@pharma-pro.com" class="text-secondary hover:underline">icran2025@pharma-pro.com</a> with any inquiries</p>
+            </details>
+
+            <!-- <details class="p-6 group">
                 <summary class="flex items-center justify-between cursor-pointer">
                     <h5 class="text-xl font-semibold text-primary-900">
                         Guideline for PowerPoint Slides
@@ -174,9 +138,9 @@
                     </span>
                 </summary>
 
-                <!-- <p class="mt-4 font-semibold leading-relaxed text-slate-800">
+                <p class="mt-4 font-semibold leading-relaxed text-slate-800">
                     Technical Details
-                </p> -->
+                </p>
                 <ul class="list-disc text-slate-500 mt-4 pl-10">
                     <li>Please use the official 36th WECOC 2024 slide template which is attached together in
                         the email</li>
@@ -230,11 +194,11 @@
                         your poster in the designated poster hall</li>
                     <li>The decision of the committee is final and cannot be contested</li>
                 </ul>
-            </details>
+            </details>-->
         </div>
 
     </div>
-    <div class="pt-28 pb-52 lg:px-20 px-5 min-h-screen bg-slate-200" id="submission">
+    <div class="pt-28 pb-52 lg:px-20 px-5 min-h-screen bg-doctor" id="abstract">
         <div class="flex-col flex gap-3 mb-10">
             <h4 class="text-2xl text-primary-600 font-semibold">Submission</h4>
             <h1 class="text-4xl text-primary-700 font-semibold">Abstract Submission</h1>

@@ -31,10 +31,13 @@ Route::prefix('/scientific-program')->group(function () {
     Route::get('#at-glance', ScientificProgram::class);
     Route::get('#schedule', ScientificProgram::class);
 });
+
 Route::prefix('/submission')->group(function () {
-    Route::get('/#guideline-abstract', Submission::class);
-    Route::get('/#submission', Submission::class);
+    Route::get('/', Submission::class);
+    Route::get('#guideline', Submission::class);
+    Route::get('#abstract', Submission::class);
 });
+
 
 Route::get('/registration', Registration::class);
 

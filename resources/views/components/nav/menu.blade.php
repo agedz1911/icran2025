@@ -68,10 +68,10 @@
                 </a>
                 <ul class="sub-menu" id="submenu-11">
                   <li class="sub-menu--item">
-                    <a href="javascript:void(0)">{{__('menu.guide-abstract')}}</a>
+                    <a href="/submission#guideline">{{__('menu.guide-abstract')}}</a>
                   </li>
                   <li class="sub-menu--item">
-                    <a href="javascript:void(0)">{{__('menu.abstract')}}</a>
+                    <a href="/submission#abstract">{{__('menu.abstract')}}</a>
                   </li>
                 </ul>
               </li>
