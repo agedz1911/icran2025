@@ -203,5 +203,8 @@
             <h4 class="text-2xl text-primary-600 font-semibold">Submission</h4>
             <h1 class="text-4xl text-primary-700 font-semibold">Abstract Submission</h1>
         </div>
+        <div class="">
+            <iframe src="https://expo.virconex-id.com/abstract/icran2025" class="w-full rounded-lg h-[1500px] md:h-[1200px]"></iframe> 
+        </div>
     </div>
 </div>
