@@ -105,7 +105,7 @@
                     <div class="mockup-window border border-slate-300">
                         <div class="flex justify-center border-t border-slate-300 ">
                             <video class="w-full" controls muted autoplay loop>
-                                <source src="video/teaser2.mp4" type="video/mp4" />
+                                <source src="video/teaser2_1.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
 
@@ -113,7 +113,6 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/3">
-                    <!-- <img src="images/flyer/1.jpg" alt=""> -->
                     <div class="carousel w-full shadow-md rounded">
                         <div id="slide1" class="carousel-item relative w-full ease-in-out duration-300">
                             <figure>
