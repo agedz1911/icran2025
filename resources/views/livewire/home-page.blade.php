@@ -100,17 +100,45 @@
                     class="btn btn-secondary  text-center rounded-badge border w-full md:w-1/5">{{ __('home.read_more') }}
                     <i class="fa-solid fa-angles-right"></i></a>
             </div>
-            <div class="flex justify-center py-5 mb-5">
+            <div class="flex justify-center py-5 mb-5 gap-3">
                 <div class="w-full md:w-2/3">
                     <div class="mockup-window border border-slate-300">
                         <div class="flex justify-center border-t border-slate-300 ">
                             <video class="w-full" controls muted autoplay loop>
-                                <source src="video/teaser.mp4" type="video/mp4" />
+                                <source src="video/teaser2.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
 
                         </div>
                     </div>
+                </div>
+                <div class="w-full md:w-1/3">
+                    <!-- <img src="images/flyer/1.jpg" alt=""> -->
+                    <div class="carousel w-full shadow-md rounded">
+                        <div id="slide1" class="carousel-item relative w-full ease-in-out duration-300">
+                            <figure>
+                                <img src="images/flyer/1.jpg" alt="" class="rounded-lg" />
+                            </figure>
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#" class="btn btn-circle btn-secondary btn-outline ">❮</a>
+                                <a href="#" class="btn btn-circle btn-secondary btn-outline">❯</a>
+                            </div>
+                        </div>
+
+                        <div id="slide2" class="carousel-item relative w-full ease-in-out duration-300">
+                            <p class="text-center"></p>
+                            <figure>
+                                <img src="images/flyer/2.jpg" alt="" class="rounded-lg" />
+                            </figure>
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#" class="btn btn-circle btn-secondary btn-outline">❮</a>
+                                <a href="#" class="btn btn-circle btn-secondary btn-outline">❯</a>
+                            </div>
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -135,7 +163,7 @@
                     <h1 class="text-4xl font-bold">+</h1>
                 </div>
                 <p class="text-xl font-semibold text-accent">Invited Speakers <br> <span class="text-xs text-icran2-900">Read More <i class="fa-solid fa-angles-right text-xs"></i></span></p>
-                
+
             </div>
         </div>
         <div class="flex items-center gap-5">
@@ -223,4 +251,45 @@
             }
         };
     }
+
+    let slideIndex = 1;
+    // Fungsi untuk menampilkan slide
+    function showSlides(n) {
+        let slides = document.getElementsByClassName("carousel-item");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+    // Fungsi untuk memindahkan slide ke depan atau ke belakang
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+    // Fungsi untuk memindahkan slide secara otomatis
+    setInterval(function() {
+        plusSlides(1);
+    }, 10000); // rotate every 10 seconds
+    // Inisialisasi slide
+    showSlides(slideIndex);
+    // Add event listeners to next and previous buttons
+    let nextButtons = document.querySelectorAll('.btn-circle:nth-child(2)');
+    let prevButtons = document.querySelectorAll('.btn-circle:nth-child(1)');
+    nextButtons.forEach((button, index) => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            plusSlides(1);
+        });
+    });
+    prevButtons.forEach((button, index) => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            plusSlides(-1);
+        });
+    });
 </script>
