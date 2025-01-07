@@ -1,117 +1,135 @@
-<div class="bg-slate-50">
-    <div class="pt-16 pb-52 lg:px-20 px-5">
+<div class="bg-icran2-50 bg-opacity-30">
+    <div class="pt-16 pb-52 lg:px-20 px-5 bg-doctor">
         <div class="flex-col flex gap-3 mb-10">
-            <h4 class="text-2xl text-primary-600 font-semibold">Registration</h4>
-            <h1 class="text-4xl text-primary-700 font-semibold">Registration Fee</h1>
+            <h4 class="text-2xl text-primary font-semibold">Registration</h4>
+            <h1 class="text-4xl text-primary font-semibold">Registration Fee</h1>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7 lg:gap-10">
-            <div class="card bg-price shadow-xl">
-                <div class="card-body w-full">
-                    <h2 class="card-title text-primary-500 text-4xl">Specialist</h2>
-                    <div class="border my-5 border-primary-600"></div>
-                    <div class="grid grid-cols-2 gap-5  w-full mx-3 text-slate-600 font-semibold">
-                        <p>Symposium</p>
-                        <p>Rp. 1.500.000</p>
-                        <p>Symposium +1
-                            Workshop non
-                            Hands- On</p>
-                        <p>Rp. 2.500.000</p>
-
-                        <p>Symposium
-                            +1
-                            Workshop
-                            Hands-On</p>
-                        <p>Rp. 3.500.000</p>
-
-                        <p>Extra
-                            Workshop
-                            Non Hands-
-                            On</p>
-                        <p>Rp. 1.000.000</p>
-                        <p>Extra
-                            Worksho
-                            pHands-
-                            On</p>
-                        <p>Rp. 2.000.000</p>
+        <div class="flex items-center justify-center">
+            <div x-data="{ openTab: 1 }" class="w-full mx-auto">
+                <div class="">
+                    <div class="mb-4 flex space-x-4 p-2 bg-icran-50 rounded-lg shadow-md">
+                        <button x-on:click="openTab = 1" :class="{ 'bg-secondary text-white': openTab === 1 }"
+                            class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Indonesian Participants</button>
+                        <button x-on:click="openTab = 2" :class="{ 'bg-secondary text-white': openTab === 2 }"
+                            class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Foreign Participants</button>
                     </div>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+
+                    <div x-show="openTab === 1"
+                        class="transition-all duration-300 bg-white bg-opacity-60 p-4 rounded-lg shadow-md border-x-4 border-primary">
+                        <div class="card">
+                            <div class="card-body w-full">
+                                <div class="overflow-x-auto">
+                                    <table class="table">
+                                        <!-- head -->
+                                        <thead>
+                                            <tr class="bg-accent text-slate-800">
+                                                <th class="text-start" style="width: 32%;">Category</th>
+                                                <th>Early Bird Registration <br> Up to April 30<sup>th</sup>, 2025</th>
+                                                <th>Late / Onsite Registration <br> After April 30<sup>th</sup>, 2025</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- row 1 -->
+                                            <tr class="bg-base-200">
+
+                                                <td>Neurosurgeon</td>
+                                                <td>USD 350</td>
+                                                <td>USD 400</td>
+                                            </tr>
+                                            <!-- row 2 -->
+                                            <tr>
+
+                                                <td>Resident</td>
+                                                <td>USD 175</td>
+                                                <td>USD 200</td>
+                                            </tr>
+                                            <!-- row 3 -->
+                                            <tr>
+
+                                                <td>General Practitioner (GP)</td>
+                                                <td>USD 175</td>
+                                                <td>USD 200</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Other Specialist </td>
+                                                <td>USD 350</td>
+                                                <td>USD 400</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Medical Student </td>
+                                                <td>USD 100</td>
+                                                <td>USD 100</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="card-actions justify-end">
+                                    <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="card bg-price shadow-xl">
-                {{-- <figure class="relative"><img src="images/pricing_bg.jpg" alt="" />
-                </figure> --}}
-                <div class="card-body w-full">
-                    <h2 class="card-title text-primary-500 text-4xl">Specialist</h2>
-                    <div class="border my-5 border-primary-600"></div>
 
-                    <div class="grid grid-cols-2 gap-5  w-full mx-3 text-slate-600 font-semibold">
-                        <p>Symposium</p>
-                        <p>Rp. 1.500.000</p>
-                        <p>Symposium +1
-                            Workshop non
-                            Hands- On</p>
-                        <p>Rp. 2.500.000</p>
+                    <div x-show="openTab === 2"
+                        class="transition-all duration-300 bg-white bg-opacity-60 p-4 rounded-lg shadow-md border-x-4 border-primary">
+                        <div class="card">
+                            <div class="card-body w-full">
+                                <div class="overflow-x-auto">
+                                    <table class="table">
+                                        <!-- head -->
+                                        <thead>
+                                            <tr class="bg-accent text-slate-800">
+                                                <th class="text-start" style="width: 32%;">Category</th>
+                                                <th>Early Bird Registration <br> Up to April 30<sup>th</sup>, 2025</th>
+                                                <th>Late / Onsite Registration <br> After April 30<sup>th</sup>, 2025</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- row 1 -->
+                                            <tr class="bg-base-200">
 
-                        <p>Symposium
-                            +1
-                            Workshop
-                            Hands-On</p>
-                        <p>Rp. 3.500.000</p>
+                                                <td>Neurosurgeon</td>
+                                                <td>IDR 5.000.000</td>
+                                                <td>IDR 6.000.000</td>
+                                            </tr>
+                                            <!-- row 2 -->
+                                            <tr>
 
-                        <p>Extra
-                            Workshop
-                            Non Hands-
-                            On</p>
-                        <p>Rp. 1.000.000</p>
-                        <p>Extra
-                            Worksho
-                            pHands-
-                            On</p>
-                        <p>Rp. 2.000.000</p>
+                                                <td>Resident</td>
+                                                <td>IDR 2.000.000</td>
+                                                <td>IDR 3.000.000</td>
+                                            </tr>
+                                            <!-- row 3 -->
+                                            <tr>
+
+                                                <td>General Practitioner (GP)</td>
+                                                <td>IDR 2.000.000</td>
+                                                <td>IDR 3.000.000</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Other Specialist </td>
+                                                <td>IDR 5.000.000</td>
+                                                <td>IDR 6.000.000</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Medical Student </td>
+                                                <td>IDR 1.000.000</td>
+                                                <td>IDR 3.000.000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="card-actions justify-end">
+                                    <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-price shadow-xl">
-                {{-- <figure class="relative"><img src="images/pricing_bg.jpg" alt="" />
-                </figure> --}}
-                <div class="card-body w-full">
-                    <h2 class="card-title text-primary-500 text-4xl">Specialist</h2>
-                    <div class="border my-5 border-primary-600"></div>
-                    <div class="grid grid-cols-2 gap-5  w-full mx-3 text-slate-600 font-semibold">
-                        <p>Symposium</p>
-                        <p>Rp. 1.500.000</p>
-                        <p>Symposium +1
-                            Workshop non
-                            Hands- On</p>
-                        <p>Rp. 2.500.000</p>
 
-                        <p>Symposium
-                            +1
-                            Workshop
-                            Hands-On</p>
-                        <p>Rp. 3.500.000</p>
-
-                        <p>Extra
-                            Workshop
-                            Non Hands-
-                            On</p>
-                        <p>Rp. 1.000.000</p>
-                        <p>Extra
-                            Worksho
-                            pHands-
-                            On</p>
-                        <p>Rp. 2.000.000</p>
-
-
-                    </div>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
-                    </div>
                 </div>
             </div>
         </div>

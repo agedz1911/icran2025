@@ -58,7 +58,7 @@
                 </ul>
               </li>
               <li class="nav-item {{ request()->is('registration*') ? 'text-maroon-800' : '' }}">
-                <a href="javascript:void(0)" class="nav-link-item">{{__('menu.registration')}}
+                <a href="/registration" class="nav-link-item">{{__('menu.registration')}}
                   <i class="fa-solid fa-angle-down"></i>
                 </a>
               </li>
