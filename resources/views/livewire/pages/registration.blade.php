@@ -19,71 +19,13 @@
                         <div class="card">
                             <div class="card-body w-full">
                                 <div class="overflow-x-auto">
-                                    <table class="table">
+                                <table class="table">
                                         <!-- head -->
                                         <thead>
                                             <tr class="bg-accent text-slate-800">
                                                 <th class="text-start" style="width: 32%;">Category</th>
-                                                <th>Early Bird Registration <br> Up to April 30<sup>th</sup>, 2025</th>
-                                                <th>Late / Onsite Registration <br> After April 30<sup>th</sup>, 2025</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <!-- row 1 -->
-                                            <tr class="bg-base-200">
-
-                                                <td>Neurosurgeon</td>
-                                                <td>USD 350</td>
-                                                <td>USD 400</td>
-                                            </tr>
-                                            <!-- row 2 -->
-                                            <tr>
-
-                                                <td>Resident</td>
-                                                <td>USD 175</td>
-                                                <td>USD 200</td>
-                                            </tr>
-                                            <!-- row 3 -->
-                                            <tr>
-
-                                                <td>General Practitioner (GP)</td>
-                                                <td>USD 175</td>
-                                                <td>USD 200</td>
-                                            </tr>
-                                            <tr>
-
-                                                <td>Other Specialist </td>
-                                                <td>USD 350</td>
-                                                <td>USD 400</td>
-                                            </tr>
-                                            <tr>
-
-                                                <td>Medical Student </td>
-                                                <td>USD 100</td>
-                                                <td>USD 100</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="card-actions justify-end">
-                                    <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div x-show="openTab === 2"
-                        class="transition-all duration-300 bg-white bg-opacity-60 p-4 rounded-lg shadow-md border-x-4 border-primary">
-                        <div class="card">
-                            <div class="card-body w-full">
-                                <div class="overflow-x-auto">
-                                    <table class="table">
-                                        <!-- head -->
-                                        <thead>
-                                            <tr class="bg-accent text-slate-800">
-                                                <th class="text-start" style="width: 32%;">Category</th>
-                                                <th>Early Bird Registration <br> Up to April 30<sup>th</sup>, 2025</th>
-                                                <th>Late / Onsite Registration <br> After April 30<sup>th</sup>, 2025</th>
+                                                <th>Early Bird Registration <br> Up to February 28<sup>th</sup>, 2025</th>
+                                                <th>Late / Onsite Registration <br> After February 28<sup>th</sup>, 2025</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -122,6 +64,65 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                </div>
+                                <div class="card-actions justify-end">
+                                    <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div x-show="openTab === 2"
+                        class="transition-all duration-300 bg-white bg-opacity-60 p-4 rounded-lg shadow-md border-x-4 border-primary">
+                        <div class="card">
+                            <div class="card-body w-full">
+                                <div class="overflow-x-auto">
+                                <table class="table">
+                                        <!-- head -->
+                                        <thead>
+                                            <tr class="bg-accent text-slate-800">
+                                                <th class="text-start" style="width: 32%;">Category</th>
+                                                <th>Early Bird Registration <br> Up to February 28<sup>th</sup>, 2025</th>
+                                                <th>Late / Onsite Registration <br> After February 28<sup>th</sup>, 2025</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- row 1 -->
+                                            <tr class="bg-base-200">
+
+                                                <td>Neurosurgeon</td>
+                                                <td>USD 350</td>
+                                                <td>USD 400</td>
+                                            </tr>
+                                            <!-- row 2 -->
+                                            <tr>
+
+                                                <td>Resident</td>
+                                                <td>USD 175</td>
+                                                <td>USD 200</td>
+                                            </tr>
+                                            <!-- row 3 -->
+                                            <tr>
+
+                                                <td>General Practitioner (GP)</td>
+                                                <td>USD 175</td>
+                                                <td>USD 200</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Other Specialist </td>
+                                                <td>USD 350</td>
+                                                <td>USD 400</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Medical Student </td>
+                                                <td>USD 100</td>
+                                                <td>USD 100</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    
                                 </div>
                                 <div class="card-actions justify-end">
                                     <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>

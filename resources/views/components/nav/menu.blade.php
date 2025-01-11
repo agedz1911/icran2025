@@ -137,56 +137,97 @@
 
               <li>
                 <a href="{{ route('locale', ['locale' => 'en']) }}"
-                  class="{{ app()->getLocale() == 'en' ? 'active' : '' }}">
-                  <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true" role="img" class="w-4 h-4" preserveAspectRatio="xMidYMid meet" fill="#000000">
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                    <g id="SVGRepo_iconCarrier">
-                      <path fill="#00247D"
-                        d="M0 9.059V13h5.628zM4.664 31H13v-5.837zM23 25.164V31h8.335zM0 23v3.941L5.63 23zM31.337 5H23v5.837zM36 26.942V23h-5.631zM36 13V9.059L30.371 13zM13 5H4.664L13 10.837z">
-                      </path>
-                      <path fill="#CF1B2B"
-                        d="M25.14 23l9.712 6.801a3.977 3.977 0 0 0 .99-1.749L28.627 23H25.14zM13 23h-2.141l-9.711 6.8c.521.53 1.189.909 1.938 1.085L13 23.943V23zm10-10h2.141l9.711-6.8a3.988 3.988 0 0 0-1.937-1.085L23 12.057V13zm-12.141 0L1.148 6.2a3.994 3.994 0 0 0-.991 1.749L7.372 13h3.487z">
-                      </path>
-                      <path fill="#EEE"
-                        d="M36 21H21v10h2v-5.836L31.335 31H32a3.99 3.99 0 0 0 2.852-1.199L25.14 23h3.487l7.215 5.052c.093-.337.158-.686.158-1.052v-.058L30.369 23H36v-2zM0 21v2h5.63L0 26.941V27c0 1.091.439 2.078 1.148 2.8l9.711-6.8H13v.943l-9.914 6.941c.294.07.598.116.914.116h.664L13 25.163V31h2V21H0zM36 9a3.983 3.983 0 0 0-1.148-2.8L25.141 13H23v-.943l9.915-6.942A4.001 4.001 0 0 0 32 5h-.663L23 10.837V5h-2v10h15v-2h-5.629L36 9.059V9zM13 5v5.837L4.664 5H4a3.985 3.985 0 0 0-2.852 1.2l9.711 6.8H7.372L.157 7.949A3.968 3.968 0 0 0 0 9v.059L5.628 13H0v2h15V5h-2z">
-                      </path>
-                      <path fill="#CF1B2B" d="M21 15V5h-6v10H0v6h15v10h6V21h15v-6z"></path>
-                    </g>
-                  </svg>
-                  English
-                </a>
-              </li>
-              <li>
-                <a href="{{ route('locale', ['locale' => 'id']) }}"
-                  class="{{ app()->getLocale() == 'id' ? 'active' : '' }}">
-                  <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true" role="img" class="w-4 h-4" preserveAspectRatio="xMidYMid meet" fill="#000000">
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                    <g id="SVGRepo_iconCarrier">
-                      <path fill="#DC1F26" d="M32 5H4a4 4 0 0 0-4 4v9h36V9a4 4 0 0 0-4-4z"></path>
-                      <path fill="#EEE" d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4v-9h36v9z"></path>
-                    </g>
-                  </svg>
-                  Bahasa
-                </a>
-              </li>
-            </ul>
-          </div> --}}
-          <a class="btn btn-primary px-4 btn-sm md:mr-0 -mr-6">Contact us</a>
-          <!-- Responsive Offcanvas Menu Button -->
-          <div class="block lg:hidden">
-            <button id="openBtn" class="hamburger-menu mobile-menu-trigger ">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
-          </div>
+          class="{{ app()->getLocale() == 'en' ? 'active' : '' }}">
+          <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true" role="img" class="w-4 h-4" preserveAspectRatio="xMidYMid meet" fill="#000000">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path fill="#00247D"
+                d="M0 9.059V13h5.628zM4.664 31H13v-5.837zM23 25.164V31h8.335zM0 23v3.941L5.63 23zM31.337 5H23v5.837zM36 26.942V23h-5.631zM36 13V9.059L30.371 13zM13 5H4.664L13 10.837z">
+              </path>
+              <path fill="#CF1B2B"
+                d="M25.14 23l9.712 6.801a3.977 3.977 0 0 0 .99-1.749L28.627 23H25.14zM13 23h-2.141l-9.711 6.8c.521.53 1.189.909 1.938 1.085L13 23.943V23zm10-10h2.141l9.711-6.8a3.988 3.988 0 0 0-1.937-1.085L23 12.057V13zm-12.141 0L1.148 6.2a3.994 3.994 0 0 0-.991 1.749L7.372 13h3.487z">
+              </path>
+              <path fill="#EEE"
+                d="M36 21H21v10h2v-5.836L31.335 31H32a3.99 3.99 0 0 0 2.852-1.199L25.14 23h3.487l7.215 5.052c.093-.337.158-.686.158-1.052v-.058L30.369 23H36v-2zM0 21v2h5.63L0 26.941V27c0 1.091.439 2.078 1.148 2.8l9.711-6.8H13v.943l-9.914 6.941c.294.07.598.116.914.116h.664L13 25.163V31h2V21H0zM36 9a3.983 3.983 0 0 0-1.148-2.8L25.141 13H23v-.943l9.915-6.942A4.001 4.001 0 0 0 32 5h-.663L23 10.837V5h-2v10h15v-2h-5.629L36 9.059V9zM13 5v5.837L4.664 5H4a3.985 3.985 0 0 0-2.852 1.2l9.711 6.8H7.372L.157 7.949A3.968 3.968 0 0 0 0 9v.059L5.628 13H0v2h15V5h-2z">
+              </path>
+              <path fill="#CF1B2B" d="M21 15V5h-6v10H0v6h15v10h6V21h15v-6z"></path>
+            </g>
+          </svg>
+          English
+          </a>
+          </li>
+          <li>
+            <a href="{{ route('locale', ['locale' => 'id']) }}"
+              class="{{ app()->getLocale() == 'id' ? 'active' : '' }}">
+              <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true" role="img" class="w-4 h-4" preserveAspectRatio="xMidYMid meet" fill="#000000">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path fill="#DC1F26" d="M32 5H4a4 4 0 0 0-4 4v9h36V9a4 4 0 0 0-4-4z"></path>
+                  <path fill="#EEE" d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4v-9h36v9z"></path>
+                </g>
+              </svg>
+              Bahasa
+            </a>
+          </li>
+          </ul>
+        </div> --}}
+        <button onclick="contact.showModal()" class="btn btn-primary px-4 btn-sm md:mr-0 -mr-6">Contact us</button>
+        <!-- Responsive Offcanvas Menu Button -->
+        <div class="block lg:hidden">
+          <button id="openBtn" class="hamburger-menu mobile-menu-trigger ">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
-        <!-- Header User Event -->
+      </div>
+      <!-- Header User Event -->
+    </div>
+</div>
+</header>
+
+<dialog id="contact" class="modal">
+  <div class="modal-box w-11/12 max-w-3xl">
+    <div class="modal-action absolute right-2 top-2">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn btn-ghost">X</button>
+      </form>
+    </div>
+    <div class="flex-row flex">
+      <img src="images/logo/logo-dark.png" class="w-40" />
+      <img src="images/logo/logo-icon.png" class="w-40" />
+    </div>
+    <h1 class="text-xl text-primary mt-5 font-bold">Secretariat </h1>
+    <div class="flex flex-col md:flex-row md:gap-6 gap-3 mt-5">
+      <div class="flex flex-row items-center gap-3">
+        <i class="fa-brands fa-whatsapp text-lg text-green-500"></i>
+        <div class="flex flex-col gap-1">
+          <a href="https://wa.me/+6281317857586" target="_blank" class="text-xs hover:underline hover:text-secondary">Ms. Sari : +62 813 1913 5153</a>
+          <a href="https://wa.me/+6281317857586" target="_blank" class="text-xs hover:underline hover:text-secondary ">Ms. Tiolan : +62 813 1785 7586</a>
+        </div>
+      </div>
+      <div class="flex flex-row items-center gap-3">
+        <i class="fa-solid fa-envelope text-lg"></i>
+        <div class="flex flex-col">
+          <a href="mailto:icran2025@pharma-pro.com" target="_blank" class="text-xs hover:underline hover:text-secondary">icran2025@pharma-pro.com</a>
+        </div>
+      </div>
+      <div class="flex flex-row items-center gap-3">
+        <i class="fa-solid fa-location-dot text-secondary text-lg"></i>
+        <div class="flex flex-col">
+          <p class="text-xs">Komplek Perkantoran Duta Merlin Blok C/35 <br>
+            Jl. Gajah Mada 3-5, Jakarta 10130</p>
+        </div>
       </div>
     </div>
-  </header>
+
+
+  </div>
+</dialog>
+
 </div>

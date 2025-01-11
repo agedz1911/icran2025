@@ -6,18 +6,19 @@
                 priorities and Bunaken National Park is one of the city's most famous tourist attractions
                 and Toraja Coffee is a treasure from the lush highlands of South Sulawesi, Indonesia. Known for its distinct taste and cultural heritage, this specialty coffee has captured the hearts of coffee enthusiasts around the world</p>
         </div>
+
         <div class="flex flex-row flex-wrap items-center justify-start gap-2">
-            <p class="text-primary font-semibold hover:cursor-pointer hover:underline">
+            <a href="#visa-regulation" class="text-primary font-semibold hover:cursor-pointer hover:underline">
                 Visa
-            </p>
+            </a>
             <i class="fa-solid fa-arrows-up-down text-xs text-red-600"></i>
-            <p class="text-primary font-semibold hover:text-icran2-800 hover:underline">Flight time to Manado </p>
+            <button onclick="flight.showModal()" class="text-primary font-semibold hover:text-icran2-800 hover:underline">Flight time to Manado </button>
             <i class="fa-solid fa-arrows-up-down text-xs text-red-600"></i>
-            <p class="text-primary font-semibold hover:cursor-pointer hover:underline">
+            <button onclick="electric.showModal()" class="text-primary font-semibold hover:cursor-pointer hover:underline">
                 Electric Current
-            </p>
-            <i class="fa-solid fa-arrows-up-down text-xs text-red-600"></i>
-            <p class="text-primary font-semibold hover:text-icran2-800 hover:underline">Conference Venue </p>
+            </button>
+            <!-- <i class="fa-solid fa-arrows-up-down text-xs text-red-600"></i>
+            <p class="text-primary font-semibold hover:text-icran2-800 hover:underline">Conference Venue </p> -->
         </div>
         <div class="w-full">
             <div class="md:flex" x-data="{ selectedTab: 'bunaken' }">
@@ -99,20 +100,119 @@
     <!-- modal electric -->
     <dialog id="electric" class="modal modal-bottom sm:modal-middle">
         <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-            </form>
+
             <img src="images/electric.jpg" class="w-full max-w-2xl rounded-md shadow-md" alt="">
+            <div class="modal-action">
+                <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-square">X</button>
+                </form>
+            </div>
         </div>
     </dialog>
 
-    <!-- modal visa -->
-    <dialog id="visa" class="modal modal-bottom sm:modal-middle">
-        <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-            </form>
-            <img src="images/visa.jpg" class="w-full max-w-2xl rounded-md shadow-md" alt="">
+    <!-- modal flight -->
+    <dialog id="flight" class="modal modal-middle sm:modal-middle">
+        <div class="modal-box w-full max-w-3xl">
+            <div class="flex flex-col justify-center items-center">
+                <img src="images/flight-time.jpg" class="w-full max-w-2xl rounded-md shadow-md" alt="">
+                <img src="images/flight-time2.jpg" class="w-full max-w-2xl rounded-md shadow-md" alt="">
+                <div class="overflow-x-auto">
+                    <table class="table">
+                        <!-- head -->
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Rute</th>
+                                <th>Airlines</th>
+                                <th>Depature</th>
+                                <th>Arrival</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- row 1 -->
+                            <tr>
+                                <th>1</th>
+                                <td>Jakarta - Manado</td>
+                                <td>Batik</td>
+                                <td>01.30</td>
+                                <td>05.50</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6"></td>
+                                <td>(Every day)</td>
+                                <td>Batik</td>
+                                <td>02.00</td>
+                                <td>06.20</td>
+                            </tr>
+                            <tr>
+                                
+                                <td rowspan="5"></td>
+                                <td>Batik</td>
+                                <td>08.00</td>
+                                <td>12.20</td>
+                            </tr>
+                            <tr>
+                                <td>Batik</td>
+                                <td>11.50</td>
+                                <td>16.10</td>
+                            </tr>
+                            <tr>
+                                <td>Citilink</td>
+                                <td>01.40</td>
+                                <td>06.05</td>
+                            </tr>
+                            <tr>
+                                <td>Garuda</td>
+                                <td>02.00</td>
+                                <td>06.25</td>
+                            </tr>
+                            <tr>
+                                <td>Garuda</td>
+                                <td>09.20</td>
+                                <td>13.45</td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>Bali (Denpasar) - Manado</td>
+                                <td>Transnusa</td>
+                                <td>01.40</td>
+                                <td>04.45</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>(Every day)</td>
+                                <td>Lion Air</td>
+                                <td>19.30</td>
+                                <td>23.30</td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>Singapore - Manado (Direct) <br>(Monday, Wednesday, Friday, Saturday)
+                                </td>
+                                <td>Scoot 1 flight/day</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>4</th>
+                                <td>Guangzhou – Manado <br>(Everyday)
+                                </td>
+                                <td>Transnusa 1 flight/day </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-action">
+                <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-square">X</button>
+                </form>
+            </div>
         </div>
     </dialog>
 </div>

@@ -6,7 +6,7 @@ use Livewire\Attributes\Title;
 use Livewire\Component;
 
 
-#[Title('Registration - 36th Weekend Course on Cardiology')]
+#[Title('Registration - ICRAN 2025')]
 class Registration extends Component
 {
     public function render()
