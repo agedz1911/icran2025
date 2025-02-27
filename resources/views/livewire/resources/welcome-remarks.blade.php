@@ -7,14 +7,14 @@
                     {{-- <p>{{$message->image}}</p> --}}
                     @if ($message->image == null )
                     <div class="avatar">
-                        <div class="bg-gradient-to-b from-icran-500 to-icran-200 rounded-md w-full">
+                        <div class="bg-gradient-to-b from-maroon-500 to-maroon-200 rounded-md w-full">
                             <img src="{{ asset('images/speakers.jpg') }}" alt="Default Doctor Image"
                                 class="object-cover rounded-lg " />
                         </div>
                     </div>
                     @else
                     <div class="avatar">
-                        <div class=" rounded-md bg-gradient-to-b from-icran-500 to-icran-200 w-full">
+                        <div class=" rounded-md bg-gradient-to-b from-icran2-500 to-icran2-200 w-full">
                             <img src="{{ asset('storage/' . $message->image) }}"
                                 class="object-cover rounded-lg" alt="{{ $message->name }}" />
                         </div>
@@ -22,10 +22,10 @@
                     @endif
                 </figure>
                 <div class="card-body">
-                    <h2 class="card-title text-primary">
+                    <h2 class="card-title text-maroon-950">
                         {{ $message->name }}
                     </h2>
-                    <p class="absolute top-2 right-3 text-primary font-medium">{!! $message->title !!} </p>
+                    <p class="absolute top-2 right-3 text-secondary font-medium">{!! $message->title !!} </p>
                 </div>
             </div>
         </div>

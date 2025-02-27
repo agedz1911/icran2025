@@ -22,7 +22,7 @@
                                         @if ($faculty->getMedia('images')->isEmpty())
                                             <div class="avatar p-3">
                                                 <div
-                                                    class="rounded-full ring ring-icran-950 ring-offset-base-100 ring-offset-4">
+                                                    class="rounded-full ring ring-icran2-400 ring-offset-base-100 ring-offset-4">
                                                     <img src="{{ asset('images/speakers.jpg') }}"
                                                         alt="Default Doctor Image" class="rounded-lg" />
                                                 </div>
@@ -31,7 +31,7 @@
                                             @foreach ($faculty->getMedia('images') as $image)
                                                 <div class="avatar p-3">
                                                     <div
-                                                        class="rounded-full ring ring-icran-950 ring-offset-base-100 ring-offset-4">
+                                                        class="rounded-full ring ring-icran2-400 ring-offset-base-100 ring-offset-4">
                                                         <img src="{{ $image->getUrl() }}" alt="{{ $faculty->name }}" />
                                                     </div>
                                                 </div>
@@ -39,7 +39,7 @@
                                         @endif
                                     </figure>
                                     <div class="card-body">
-                                        <h2 class="card-title text-primary hover:cursor-pointer hover:text-accent">
+                                        <h2 class="card-title text-secondary hover:cursor-pointer hover:text-accent">
                                             {{ $faculty->name }}
                                         </h2>
                                         <p class="">{{ $faculty->country }}</p>
@@ -58,7 +58,7 @@
                                         @if ($faculty->getMedia('images')->isEmpty())
                                             <div class="avatar p-3">
                                                 <div
-                                                    class="rounded-full ring ring-icran-950 ring-offset-base-100 ring-offset-4">
+                                                    class="rounded-full ring ring-icran2-400 ring-offset-base-100 ring-offset-4">
                                                     <img src="{{ asset('images/speakers.jpg') }}"
                                                         alt="Default Doctor Image" class="rounded-lg" />
                                                 </div>
@@ -67,7 +67,7 @@
                                             @foreach ($faculty->getMedia('images') as $image)
                                                 <div class="avatar p-3">
                                                     <div
-                                                        class="rounded-full ring ring-icran-950 ring-offset-base-100 ring-offset-4">
+                                                        class="rounded-full ring ring-icran2-400 ring-offset-base-100 ring-offset-4">
                                                         <img src="{{ $image->getUrl() }}" alt="{{ $faculty->name }}" />
                                                     </div>
                                                 </div>
@@ -75,7 +75,7 @@
                                         @endif
                                     </figure>
                                     <div class="card-body">
-                                        <h2 class="card-title text-primary hover:cursor-pointer hover:text-accent">
+                                        <h2 class="card-title text-secondary hover:cursor-pointer hover:text-accent">
                                             {{ $faculty->name }}
                                         </h2>
                                     </div>

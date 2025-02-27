@@ -2,7 +2,7 @@
     <div class="flex flex-col">
         @if (count($committees) > 0)
         @foreach ($uniqueCategories as $category)
-        <h1 class="font-semibold text-center mb-5 text-primary text-2xl">{{ $category }}</h1>
+        <h1 class="font-semibold text-center mb-5 text-icran-800 text-2xl">{{ $category }}</h1>
         <div class="flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-5 mb-10">
             @foreach ($committees as $committee)
             @if ($committee->category == $category)
@@ -25,7 +25,7 @@
                     @endif
                 </figure>
                 <div class="card-body">
-                    <h2 class="card-title text-primary hover:text-accent">{{ $committee->name }}</h2>
+                    <h2 class="card-title text-secondary hover:text-accent">{{ $committee->name }}</h2>
                     <p>
                         @if ($committee->title != null)
                         <span class="">{{ $committee->title }}</span>

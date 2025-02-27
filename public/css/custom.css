@@ -415,6 +415,11 @@
     letter-spacing: normal;
     position: relative;
 }
+
+.site-menu-main .nav-link-item:hover {
+    /* color: var(--heading-color); */
+    color: #FFDE17;
+}
 .site-menu-main .nav-link-item--white {
     color: #fff;
 }
@@ -534,7 +539,7 @@
 }
 
 .site-menu-main .sub-menu--item:hover > a {
-    color: #870808;
+    color: #FFDE17;
 }
 
 @media (min-width: 992px) {
@@ -1051,7 +1056,7 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
 }
 
 .bg-blog2 {
-    background-image: url(/images/blog_bg.png), linear-gradient(to bottom , #282561, #460f2e);
+    background-image: url(/images/bg2.png), linear-gradient(to bottom , #1A4984, #232323);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1072,7 +1077,7 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
 }
 
 .bg-doctor {
-    background-image: url(/images/doctors_bg_1.png);
+    background-image: url(/images/doctors_bg_2.png);
     background-size: contain;
     background-repeat: repeat-y;
     background-position: right;

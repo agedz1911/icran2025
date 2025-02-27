@@ -2,9 +2,9 @@
     <footer class="footer pt-32 pb-40 bg-base-200 footer-img">
         <div class="grid grid-cols-1 gap-10 lg:grid-cols-3 px-5 justify-items-start lg:justify-items-center w-full">
             <nav class="flex-col flex gap-3 text-white">
-                <div class="flex-row flex">
-                    <img src="images/logo/logo-light.png" class="w-40" />
-                    <img src="images/logo/logo-icon.png" class="w-40" />
+                <div class="flex-col md:flex-row flex ">
+                    <img src="images/logo/logo-light-n.png" class="w-40" />
+                    <img src="images/logo/logo-icon-n.png" class="w-full" />
                 </div>
                 <p>{{__('home.title')}}  </p>
                 <h1 class="font-bold text-2xl mb-0 text-slate-300">Conference Organizer</h1>

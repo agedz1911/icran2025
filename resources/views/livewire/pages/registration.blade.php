@@ -2,7 +2,7 @@
     <div class="pt-16 pb-52 lg:px-20 px-5 bg-doctor">
         <div class="flex-col flex gap-3 mb-10">
             <h4 class="text-2xl text-primary font-semibold">Registration</h4>
-            <h1 class="text-4xl text-primary font-semibold">Registration Fee</h1>
+            <h1 class="text-4xl text-secondary font-semibold">Registration Fee</h1>
         </div>
         <div class="flex items-center justify-center">
             <div x-data="{ openTab: 1 }" class="w-full mx-auto">
@@ -22,7 +22,7 @@
                                 <table class="table">
                                         <!-- head -->
                                         <thead>
-                                            <tr class="bg-accent text-slate-800">
+                                            <tr class="bg-icran2-100 text-slate-800">
                                                 <th class="text-start" style="width: 32%;">Category</th>
                                                 <th>Early Bird Registration <br> Up to February 28<sup>th</sup>, 2025</th>
                                                 <th>Late / Onsite Registration <br> After February 28<sup>th</sup>, 2025</th>
@@ -80,7 +80,7 @@
                                 <table class="table">
                                         <!-- head -->
                                         <thead>
-                                            <tr class="bg-accent text-slate-800">
+                                            <tr class="bg-icran2-100 text-slate-800">
                                                 <th class="text-start" style="width: 32%;">Category</th>
                                                 <th>Early Bird Registration <br> Up to February 28<sup>th</sup>, 2025</th>
                                                 <th>Late / Onsite Registration <br> After February 28<sup>th</sup>, 2025</th>
@@ -138,8 +138,8 @@
 
     <div class="bg-local pt-24 pb-52 lg:px-20 px-5 bg-blog" id="reg-info">
         <div class="flex-col flex gap-3 mb-10">
-            <h4 class="text-2xl text-primary-600 font-semibold">Registration</h4>
-            <h1 class="text-4xl text-primary-700 font-semibold">Registration Information</h1>
+            <h4 class="text-2xl text-primary font-semibold">Registration</h4>
+            <h1 class="text-4xl text-secondary font-semibold">Registration Information</h1>
         </div>
 
         <livewire:resources.reg-info />

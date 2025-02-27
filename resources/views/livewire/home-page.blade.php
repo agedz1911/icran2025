@@ -1,17 +1,17 @@
 <div class="bg-icran2-50 bg-opacity-30">
     {{-- Start Hero --}}
-    <div class="hero min-h-screen mb-0 bg-gradient-to-t from-maroon-900 to-icran-950">
-        <div class="hero-overlay bg-opacity-20 bg-cover bg-[url('images/bg.png')]"></div>
+    <div class="hero min-h-screen mb-0 bg-gradient-to-l from-secondary to-maroon-900">
+        <div class="hero-overlay bg-opacity-20 bg-cover bg-[url('images/bg1.png')]"></div>
         <div class="hero-content flex-col justify-start md:flex-row">
             <div class="max-w-2xl">
-                <img src="images/logo/logo-icon.png" class="w-36 lg:w-48" alt="">
+                <img src="images/logo/logo-icon-n.png" class="w-80 lg:w-96" alt="">
                 <div class="flex flex-col gap-4 mt-5">
                     <h1 class="text-4xl text-icran-100 font-semibold">{{ __('home.title') }} </h1>
-                    <h4 class="text-xl text-accent font-semibold tracking-wide italic">" {{ __('home.theme') }} "</h4>
+                    <h4 class="text-xl text-primary font-semibold tracking-wide italic">" {{ __('home.theme') }} "</h4>
                     <p class="text-slate-50">{{ __('home.event_date') }} <br>{{ __('home.venue') }}</p>
                     <div class="flex flex-row gap-5">
-                        <button class="btn btn-primary">{{ __('home.register') }}</button>
-                        <button class="btn btn-outline btn-accent">{{ __('home.read_more') }}</button>
+                        <button class="btn btn-primary text-white">{{ __('home.register') }}</button>
+                        <button class="btn btn-outline btn-primary">{{ __('home.read_more') }}</button>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                     <div class="flex flex-col md:flex-row justify-between gap-3">
                         <div class="text-center mb-4">
                             <div class="flex justify-center">
-                                <img src="images/logo/logo-light.png" class="w-40 md:w-48 " alt="">
+                                <img src="images/logo/logo-light-n.png" class="w-40 md:w-48 " alt="">
                             </div>
                             <p class="text-slate-50 tracking-widest">{{ __('home.remaining') }}</p>
                         </div>
@@ -36,25 +36,25 @@
                             <div class="flex flex-col">
                                 <h2 class="text-center text-3xl lg:text-4xl text-white font-semibold" id="days">
                                 </h2>
-                                <p class="text-center text-accent">{{ __('home.counter_day') }}</p>
+                                <p class="text-center text-primary">{{ __('home.counter_day') }}</p>
                             </div>
                             <p class="hidden md:block text-white">:</p>
                             <div class="flex flex-col">
                                 <h2 class="text-center text-3xl lg:text-4xl text-white font-semibold" id="hours">
                                 </h2>
-                                <p class="text-center text-accent">{{ __('home.counter_hour') }}</p>
+                                <p class="text-center text-primary">{{ __('home.counter_hour') }}</p>
                             </div>
                             <p class="hidden md:block text-white">:</p>
                             <div class="flex flex-col">
                                 <h2 class="text-center text-3xl lg:text-4xl text-white font-semibold" id="mins">
                                 </h2>
-                                <p class="text-center text-accent">{{ __('home.counter_minute') }}</p>
+                                <p class="text-center text-primary">{{ __('home.counter_minute') }}</p>
                             </div>
                             <p class="hidden md:block text-white">:</p>
                             <div class="flex flex-col">
                                 <h2 class="text-center text-3xl lg:text-4xl text-white font-semibold" id="secs">
                                 </h2>
-                                <p class="text-center text-accent">{{ __('home.counter_second') }}</p>
+                                <p class="text-center text-primary">{{ __('home.counter_second') }}</p>
                                 <div id="end"></div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
     <div class="flex justify-center">
         <div class="px-6 lg:px-8 pb-20 lg:pb-24 text-center max-w-6xl">
             <p class="text-secondary font-semibold tracking-wide mb-5">{{ __('menu.remarks') }} </p>
-            <h1 class="text-2xl md:text-4xl text-slate-700 mt-2 mb-8 tracking-wide font-semibold">
+            <h1 class="text-2xl md:text-4xl text-secondary mt-2 mb-8 tracking-wide font-semibold">
                 {{ __('home.title') }}
             </h1>
             @foreach ($messages as $message)
@@ -91,28 +91,28 @@
                     </div>
                 </div>
                 @endif
-                <p class="font-bold text-primary underline mt-4">{{ $message->name }}</p>
+                <p class="font-bold text-secondary underline mt-4">{{ $message->name }}</p>
                 <p>- {!! $message->title !!}</p>
             </div>
             @endforeach
             <div class="py-10 mb-10">
                 <a href="/congress-information#welcome-remarks"
-                    class="btn btn-secondary  text-center rounded-badge border w-full md:w-1/5">{{ __('home.read_more') }}
+                    class="btn btn-primary  text-center rounded-badge border w-full md:w-1/5">{{ __('home.read_more') }}
                     <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div class="flex justify-center py-5 mb-5 gap-3">
                 <div class="w-full md:w-2/3">
-                    <div class="mockup-window border border-slate-300">
+                    <div class="mockup-window border border-icran2-300 bg-primary">
                         <div class="flex justify-center border-t border-slate-300 ">
                             <video class="w-full" controls muted autoplay loop>
-                                <source src="video/teaser2_1.mp4" type="video/mp4" />
+                                <source src="video/jatim.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
 
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-1/3">
+                <!-- <div class="w-full md:w-1/3">
                     <div class="carousel w-full shadow-md rounded">
                         <div id="slide1" class="carousel-item relative w-full ease-in-out duration-300">
                             <figure>
@@ -124,11 +124,8 @@
                                 <a href="#" class="btn btn-circle btn-secondary btn-outline">❯</a>
                             </div>
                         </div>
-
-                        
                     </div>
-                   
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -198,20 +195,17 @@
     {{-- Start Map --}}
     <div class="bg-blog2  py-32 lg:px-20 px-5">
         <div class="w-full mb-5">
+            <iframe class="w-full rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7360021160866!2d112.75721927485!3d-7.270853371444361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd380923c5d%3A0x1b20677249bdc80f!2sASEEC%20Tower%20Universitas%20Airlangga!5e0!3m2!1sid!2sid!4v1740631803170!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <iframe class="w-full rounded-md"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5047162263204!2d124.82817017458784!3d1.4702975611776488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x328774e2e6f8abf5%3A0x5d2b674b0f18ebd3!2sFour%20Points%20by%20Sheraton%20Manado!5e0!3m2!1sen!2sid!4v1731917040948!5m2!1sen!2sid"
-                width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="flex flex-col md:flex-row gap-5 justify-evenly items-start pt-10 px-3 md:px-10">
             <div class="w-full">
                 <p class="text-white mb-0 text-sm">Welcome to the Magnificent Venue</p>
-                <h1 class="text-2xl  mt-0 text-accent font-semibold tracking-wider">Manado, Indonesia</h1>
+                <h1 class="text-2xl  mt-0 text-primary font-semibold tracking-wider">Surabaya, Indonesia</h1>
             </div>
             <div class="w-full">
-                <p class="text-white"><span class="text-accent">Manado</span> is the capital city of the Indonesian province of North Sulawesi. It is the second largest city in Sulawesi, Manado is among Indonesia's top-five tourism priorities and Bunaken National Park is one of the city's most famous tourist attractions.</p>
-                <a href="/venue#manado" class="text-xs font-semibold mt-2 float-end text-accent tracking-wide underline">Read More<i class="fa-solid fa-angles-right"></i></a>
+                <p class="text-white"><span class="text-primary">Surabaya</span> is the capital city of the Indonesian province of North Sulawesi. It is the second largest city in Sulawesi, Manado is among Indonesia's top-five tourism priorities and Bunaken National Park is one of the city's most famous tourist attractions.</p>
+                <a href="javascript:void(0)" class="text-xs font-semibold mt-2 float-end text-primary tracking-wide underline">Read More<i class="fa-solid fa-angles-right"></i></a>
             </div>
         </div>
     </div>

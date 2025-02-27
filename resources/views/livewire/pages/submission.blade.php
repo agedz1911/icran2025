@@ -1,13 +1,13 @@
 <div class="">
     <div class="bg-doctor pt-20 pb-52 lg:px-20 px-5" id="guideline">
         <div class="flex-col flex gap-3 mb-10">
-            <h4 class="text-2xl text-primary-600 font-semibold">Submission</h4>
-            <h1 class="text-4xl text-primary-700 font-semibold">Guideline for Abstracts</h1>
+            <h4 class="text-2xl text-primary font-semibold">Submission</h4>
+            <h1 class="text-4xl text-secondary font-semibold">Guideline for Abstracts</h1>
         </div>
         <div class="bg-zinc-50 border border-gray-200 divide-y divide-gray-200 rounded-lg">
             <details class="p-6 group" open>
                 <summary class="flex items-center justify-between cursor-pointer">
-                    <h5 class="text-xl font-semibold text-primary-900">
+                    <h5 class="text-xl font-semibold text-secondary">
                         Abstract Guideline
                     </h5>
                     <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
@@ -64,7 +64,7 @@
 
             <details class="p-6 group">
                 <summary class="flex items-center justify-between cursor-pointer">
-                    <h5 class="text-xl font-semibold text-primary-900">
+                    <h5 class="text-xl font-semibold text-secondary">
                         Abstract Selection
                     </h5>
 
@@ -94,7 +94,7 @@
 
             <details class="p-6 group">
                 <summary class="flex items-center justify-between cursor-pointer">
-                    <h5 class="text-xl font-semibold text-primary-900">
+                    <h5 class="text-xl font-semibold text-secondary">
                         Registration/Attendance Requirement
                     </h5>
 
@@ -128,7 +128,7 @@
 
             <!-- <details class="p-6 group">
                 <summary class="flex items-center justify-between cursor-pointer">
-                    <h5 class="text-xl font-semibold text-primary-900">
+                    <h5 class="text-xl font-semibold text-secondary">
                         Guideline for PowerPoint Slides
                     </h5>
 
@@ -160,7 +160,7 @@
             </details>
             <details class="p-6 group">
                 <summary class="flex items-center justify-between cursor-pointer">
-                    <h5 class="text-xl font-semibold text-primary-900">
+                    <h5 class="text-xl font-semibold text-secondary">
                         Displayed Poster Session
                     </h5>
 
@@ -200,8 +200,8 @@
     </div>
     <div class="pt-28 pb-52 lg:px-20 px-5 min-h-screen bg-doctor" id="abstract">
         <div class="flex-col flex gap-3 mb-10">
-            <h4 class="text-2xl text-primary-600 font-semibold">Submission</h4>
-            <h1 class="text-4xl text-primary-700 font-semibold">Abstract Submission</h1>
+            <h4 class="text-2xl text-primary font-semibold">Submission</h4>
+            <h1 class="text-4xl text-secondary font-semibold">Abstract Submission</h1>
         </div>
         <div class="">
             <iframe src="https://expo.virconex-id.com/abstract/icran2025" class="w-full rounded-lg h-[1500px] md:h-[1200px]"></iframe> 

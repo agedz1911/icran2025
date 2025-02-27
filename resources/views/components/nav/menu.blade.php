@@ -3,9 +3,9 @@
     <div class="container-default">
       <div class="flex items-center justify-between gap-x-8">
         <!-- Header Logo -->
-        <div class="avatar">
-          <a href="/" class="w-full md:h-14">
-            <img src="images/logo/logo-light.png" alt="ICRAN" />
+        <div class="">
+          <a href="/">
+            <img src="images/logo/logo-light-n.png" class="h-12 md:h-14 w-full" alt="ICRAN" />
           </a>
         </div>
         <!-- Header Logo -->
@@ -22,11 +22,11 @@
               <div class="mobile-menu-close">&times;</div>
             </div>
             <ul class="site-menu-main">
-              <li class="nav-item {{ request()->is('/') ? 'text-maroon-800' : '' }}">
+              <li class="nav-item {{ request()->is('/') ? 'text-primary' : '' }}">
                 <a href="/" class="nav-link-item">{{__('menu.home')}}</a>
               </li>
               <li
-                class="nav-item nav-item-has-children {{ request()->is('congress-information*') ? 'text-maroon-800' : '' }}">
+                class="nav-item nav-item-has-children {{ request()->is('congress-information*') ? 'text-primary' : '' }}">
                 <a href="javascript:void(0)" class="nav-link-item drop-trigger ">{{__('menu.congress-info')}} <i
                     class="fa-solid fa-angle-down"></i>
                 </a>
@@ -44,7 +44,7 @@
               </li>
 
               <li
-                class="nav-item nav-item-has-children {{ request()->is('scientific-program*') ? 'text-maroon-800' : '' }}">
+                class="nav-item nav-item-has-children {{ request()->is('scientific-program*') ? 'text-primary' : '' }}">
                 <a href="javascript:void(0)" class="nav-link-item drop-trigger">{{__('menu.program')}}
                   <i class="fa-solid fa-angle-down"></i>
                 </a>
@@ -57,12 +57,12 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item {{ request()->is('registration*') ? 'text-maroon-800' : '' }}">
+              <li class="nav-item {{ request()->is('registration*') ? 'text-primary' : '' }}">
                 <a href="/registration" class="nav-link-item">{{__('menu.registration')}}
                   <i class="fa-solid fa-angle-down"></i>
                 </a>
               </li>
-              <li class="nav-item nav-item-has-children {{ request()->is('submission*') ? 'text-maroon-800' : '' }}">
+              <li class="nav-item nav-item-has-children {{ request()->is('submission*') ? 'text-primary' : '' }}">
                 <a href="javascript:void(0)" class="nav-link-item drop-trigger">{{__('menu.submission')}}
                   <i class="fa-solid fa-angle-down"></i>
                 </a>
@@ -75,13 +75,13 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item nav-item-has-children {{ request()->is('venue*') ? 'text-maroon-800' : '' }}">
+              <li class="nav-item nav-item-has-children {{ request()->is('venue*') ? 'text-primary' : '' }}">
                 <a href="javascript:void(0)" class="nav-link-item drop-trigger">{{__('menu.visit')}}
                   <i class="fa-solid fa-angle-down"></i>
                 </a>
                 <ul class="sub-menu" id="submenu-11">
                   <li class="sub-menu--item">
-                    <a href="/venue#manado">Manado</a>
+                    <a href="/venue#surabaya">Surabaya</a>
                   </li>
                   <li class="sub-menu--item">
                     <a href="/venue#venue">{{__('menu.venue')}}</a>
