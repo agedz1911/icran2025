@@ -19,7 +19,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', HomePage::class);
+Route::get('/', function() {
+    return view('welcome');
+});
+Route::get('/home', HomePage::class);
 Route::prefix('/congress-information')->group(function () {
     Route::get('/', CongressInformation::class);
     Route::get('#welcome-remarks', CongressInformation::class);
