@@ -204,7 +204,7 @@
                 <h1 class="text-2xl  mt-0 text-primary font-semibold tracking-wider">Surabaya, Indonesia</h1>
             </div>
             <div class="w-full">
-                <p class="text-white"><span class="text-primary">Surabaya</span> is the capital city of the Indonesian province of North Sulawesi. It is the second largest city in Sulawesi, Manado is among Indonesia's top-five tourism priorities and Bunaken National Park is one of the city's most famous tourist attractions.</p>
+                <p class="text-white"><span class="text-primary">Surabaya</span> The city of Surabaya is the capital of East Java Province which is the center of government and economy as well as the largest city in the province. Surabaya is also a city located in East Java Province, Indonesia. Surabaya is the second largest city in Indonesia after Jakarta.</p>
                 <a href="javascript:void(0)" class="text-xs font-semibold mt-2 float-end text-primary tracking-wide underline">Read More<i class="fa-solid fa-angles-right"></i></a>
             </div>
         </div>
