@@ -23,9 +23,9 @@
                 <h1 class="font-bold text-slate-300 text-2xl">{{__('home.use_link')}}</h1>
                 <a href="javascript:void(0)" class="link link-hover">{{__('menu.program')}}</a>
                 <a href="/congress-information" class="link link-hover">{{__('menu.congress-info')}}</a>
-                <a href="javascript:void(0)" class="link link-hover">{{__('menu.submission')}}</a>
-                <a href="javascript:void(0)" class="link link-hover">{{__('menu.registration')}}</a>
-                <a href="/venue" class="link link-hover">{{__('menu.venue')}}</a>
+                <a href="/submission" class="link link-hover">{{__('menu.submission')}}</a>
+                <a href="/registration" class="link link-hover">{{__('menu.registration')}}</a>
+                <a href="javascript:void(0)" class="link link-hover">{{__('menu.venue')}}</a>
                 
             </nav>
             <nav class="flex-col flex gap-2 text-white">
