@@ -133,7 +133,7 @@
       <div class="flex flex-row items-center gap-3">
         <i class="fa-brands fa-whatsapp text-lg text-green-500"></i>
         <div class="flex flex-col gap-1">
-          <a href="https://wa.me/+6281317857586" target="_blank" class="text-xs hover:underline hover:text-secondary">Ms. Sari : +62 813 1913 5153</a>
+          <a href="https://wa.me/+6281319135153" target="_blank" class="text-xs hover:underline hover:text-secondary">Ms. Sari : +62 813 1913 5153</a>
           <a href="https://wa.me/+6281317857586" target="_blank" class="text-xs hover:underline hover:text-secondary ">Ms. Tiolan : +62 813 1785 7586</a>
         </div>
       </div>
