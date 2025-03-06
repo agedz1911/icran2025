@@ -24,8 +24,8 @@
                                         <thead>
                                             <tr class="bg-icran2-100 text-slate-800">
                                                 <th class="text-start" style="width: 32%;">Category</th>
-                                                <th>Early Bird Registration <br> Up to February 28<sup>th</sup>, 2025</th>
-                                                <th>Late / Onsite Registration <br> After February 28<sup>th</sup>, 2025</th>
+                                                <th>Early Bird Registration <br> Up to May 30<sup>th</sup>, 2025</th>
+                                                <th>Late / Onsite Registration <br> After May 30<sup>th</sup>, 2025</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -33,34 +33,34 @@
                                             <tr class="bg-base-200">
 
                                                 <td>Neurosurgeon</td>
-                                                <td>IDR 5.000.000</td>
-                                                <td>IDR 6.000.000</td>
+                                                <td>IDR 3.000.000</td>
+                                                <td>IDR 3.750.000</td>
                                             </tr>
                                             <!-- row 2 -->
                                             <tr>
 
                                                 <td>Resident</td>
-                                                <td>IDR 2.000.000</td>
-                                                <td>IDR 3.000.000</td>
+                                                <td>IDR 1.000.000</td>
+                                                <td>IDR 1.500.000</td>
                                             </tr>
                                             <!-- row 3 -->
                                             <tr>
 
                                                 <td>General Practitioner (GP)</td>
-                                                <td>IDR 2.000.000</td>
-                                                <td>IDR 3.000.000</td>
+                                                <td>IDR 1.000.000</td>
+                                                <td>IDR 1.500.000</td>
                                             </tr>
                                             <tr>
 
                                                 <td>Other Specialist </td>
-                                                <td>IDR 5.000.000</td>
-                                                <td>IDR 6.000.000</td>
+                                                <td>IDR 3.000.000</td>
+                                                <td>IDR 3.750.000</td>
                                             </tr>
                                             <tr>
 
                                                 <td>Medical Student </td>
                                                 <td>IDR 1.000.000</td>
-                                                <td>IDR 3.000.000</td>
+                                                <td>IDR 1.250.000</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -82,8 +82,8 @@
                                         <thead>
                                             <tr class="bg-icran2-100 text-slate-800">
                                                 <th class="text-start" style="width: 32%;">Category</th>
-                                                <th>Early Bird Registration <br> Up to February 28<sup>th</sup>, 2025</th>
-                                                <th>Late / Onsite Registration <br> After February 28<sup>th</sup>, 2025</th>
+                                                <th>Early Bird Registration <br> Up to May 30<sup>th</sup>, 2025</th>
+                                                <th>Late / Onsite Registration <br> After May 30<sup>th</sup>, 2025</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -91,34 +91,34 @@
                                             <tr class="bg-base-200">
 
                                                 <td>Neurosurgeon</td>
+                                                <td>USD 250</td>
                                                 <td>USD 350</td>
-                                                <td>USD 400</td>
                                             </tr>
                                             <!-- row 2 -->
                                             <tr>
 
                                                 <td>Resident</td>
-                                                <td>USD 175</td>
-                                                <td>USD 200</td>
+                                                <td>USD 150</td>
+                                                <td>USD 150</td>
                                             </tr>
                                             <!-- row 3 -->
                                             <tr>
 
                                                 <td>General Practitioner (GP)</td>
-                                                <td>USD 175</td>
                                                 <td>USD 200</td>
+                                                <td>USD 300</td>
                                             </tr>
                                             <tr>
 
                                                 <td>Other Specialist </td>
+                                                <td>USD 250</td>
                                                 <td>USD 350</td>
-                                                <td>USD 400</td>
                                             </tr>
                                             <tr>
 
                                                 <td>Medical Student </td>
-                                                <td>USD 100</td>
-                                                <td>USD 100</td>
+                                                <td>USD 150</td>
+                                                <td>USD 150</td>
                                             </tr>
                                         </tbody>
                                     </table>
