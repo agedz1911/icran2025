@@ -19,10 +19,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function() {
-    return view('welcome');
-});
-Route::get('/home', HomePage::class);
+// Route::get('/', function() {
+//     return view('welcome');
+// });
+Route::get('/', HomePage::class);
 Route::prefix('/congress-information')->group(function () {
     Route::get('/', CongressInformation::class);
     Route::get('#welcome-remarks', CongressInformation::class);
@@ -44,11 +44,11 @@ Route::prefix('/submission')->group(function () {
 
 Route::get('/registration', Registration::class);
 
-Route::prefix('/venue')->group(function () {
-    Route::get('#visa-regulation', Venue::class);
-    Route::get('#venue', Venue::class);
-    Route::get('#manado', Venue::class);
-});
+// Route::prefix('/venue')->group(function () {
+//     Route::get('#visa-regulation', Venue::class);
+//     Route::get('#venue', Venue::class);
+//     Route::get('#manado', Venue::class);
+// });
 
 Route::get('/venue', Venue::class);
 

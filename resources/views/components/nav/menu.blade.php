@@ -81,13 +81,13 @@
                 </a>
                 <ul class="sub-menu" id="submenu-11">
                   <li class="sub-menu--item">
-                    <a href="/venue#surabaya">Surabaya</a>
+                    <a href="javascript:void(0)">Surabaya</a>
                   </li>
                   <li class="sub-menu--item">
-                    <a href="/venue#venue">{{__('menu.venue')}}</a>
+                    <a href="javascript:void(0)">{{__('menu.venue')}}</a>
                   </li>
                   <li class="sub-menu--item">
-                    <a href="/venue#visa-regulation">{{__('menu.visa')}}</a>
+                    <a href="javascript:void(0)">{{__('menu.visa')}}</a>
                   </li>
                 </ul>
               </li>
