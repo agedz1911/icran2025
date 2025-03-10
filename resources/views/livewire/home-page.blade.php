@@ -194,6 +194,16 @@
                                 <a href="#" class="btn btn-circle btn-secondary btn-outline">❯</a>
                             </div>
                         </div>
+                        <div id="slide9" class="carousel-item relative w-full ease-in-out duration-300">
+                            <figure>
+                                <img src="images/flyer/09.jpg" alt="" class="rounded-lg" />
+                            </figure>
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#" class="btn btn-circle btn-secondary btn-outline ">❮</a>
+                                <a href="#" class="btn btn-circle btn-secondary btn-outline">❯</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
