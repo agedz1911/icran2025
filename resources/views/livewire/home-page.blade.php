@@ -146,7 +146,7 @@
                         </div>
                         <div id="slide4" class="carousel-item relative w-full ease-in-out duration-300">
                             <figure>
-                                <img src="images/flyer/04.jpg" alt="" class="rounded-lg" />
+                                <img src="images/flyer/04-new.jpeg" alt="" class="rounded-lg" />
                             </figure>
                             <div
                                 class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">

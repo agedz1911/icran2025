@@ -18,8 +18,9 @@
                         class="transition-all duration-300 bg-white bg-opacity-60 p-4 rounded-lg shadow-md border-x-4 border-primary">
                         <div class="card">
                             <div class="card-body w-full">
+                                <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Symposium</h4>
                                 <div class="overflow-x-auto">
-                                <table class="table">
+                                    <table class="table">
                                         <!-- head -->
                                         <thead>
                                             <tr class="bg-icran2-100 text-slate-800">
@@ -68,6 +69,58 @@
                                 <div class="card-actions justify-end">
                                     <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
                                 </div>
+                                <hr class="mt-2 mb-2">
+                                <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Symposium + Global Neuro Workshop</h4>
+                                <div class="overflow-x-auto">
+                                    <table class="table">
+                                        <!-- head -->
+                                        <thead>
+                                            <tr class="bg-icran2-100 text-slate-800">
+                                                <th class="text-start" style="width: 32%;">Category</th>
+                                                <th>Early Bird Registration <br> Up to May 30<sup>th</sup>, 2025</th>
+                                                <th>Late / Onsite Registration <br> After May 30<sup>th</sup>, 2025</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- row 1 -->
+                                            <tr class="bg-base-200">
+
+                                                <td>Neurosurgeon</td>
+                                                <td>IDR 5.000.000</td>
+                                                <td>IDR 5.500.000</td>
+                                            </tr>
+                                            <!-- row 2 -->
+                                            <tr>
+
+                                                <td>Resident</td>
+                                                <td>IDR 2.500.000</td>
+                                                <td>IDR 3.000.000</td>
+                                            </tr>
+                                            <!-- row 3 -->
+                                            <tr>
+
+                                                <td>General Practitioner (GP)</td>
+                                                <td>IDR 2.500.000</td>
+                                                <td>IDR 3.000.000</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Other Specialist </td>
+                                                <td>IDR 5.000.000</td>
+                                                <td>IDR 5.500.000</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Medical Student </td>
+                                                <td>IDR 1.500.000</td>
+                                                <td>IDR 1.500.000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="card-actions justify-end">
+                                    <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -76,8 +129,9 @@
                         class="transition-all duration-300 bg-white bg-opacity-60 p-4 rounded-lg shadow-md border-x-4 border-primary">
                         <div class="card">
                             <div class="card-body w-full">
+                                <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Symposium</h4>
                                 <div class="overflow-x-auto">
-                                <table class="table">
+                                    <table class="table">
                                         <!-- head -->
                                         <thead>
                                             <tr class="bg-icran2-100 text-slate-800">
@@ -101,6 +155,12 @@
                                                 <td>USD 150</td>
                                                 <td>USD 150</td>
                                             </tr>
+                                            <tr>
+
+                                                <td>Resident (Free Paper Presentation)</td>
+                                                <td>USD 75</td>
+                                                <td>USD 75</td>
+                                            </tr>
                                             <!-- row 3 -->
                                             <tr>
 
@@ -122,7 +182,66 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    
+
+                                </div>
+                                <div class="card-actions justify-end">
+                                    <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
+                                </div>
+                                <hr class="mt-2 mb-2">
+                                <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Symposium + Global Neuro Workshop</h4>
+                                <div class="overflow-x-auto">
+                                    <table class="table">
+                                        <!-- head -->
+                                        <thead>
+                                            <tr class="bg-icran2-100 text-slate-800">
+                                                <th class="text-start" style="width: 32%;">Category</th>
+                                                <th>Early Bird Registration <br> Up to May 30<sup>th</sup>, 2025</th>
+                                                <th>Late / Onsite Registration <br> After May 30<sup>th</sup>, 2025</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- row 1 -->
+                                            <tr class="bg-base-200">
+
+                                                <td>Neurosurgeon</td>
+                                                <td>USD 400</td>
+                                                <td>USD 550</td>
+                                            </tr>
+                                            <!-- row 2 -->
+                                            <tr>
+
+                                                <td>Resident</td>
+                                                <td>USD 200</td>
+                                                <td>USD 200</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Resident (Free Paper Presentation)</td>
+                                                <td>USD 125</td>
+                                                <td>USD 125</td>
+                                            </tr>
+                                            <!-- row 3 -->
+                                            <tr>
+
+                                                <td>General Practitioner (GP)</td>
+                                                <td>USD 300</td>
+                                                <td>USD 400</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Other Specialist </td>
+                                                <td>USD 400</td>
+                                                <td>USD 550</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Medical Student </td>
+                                                <td>USD 200</td>
+                                                <td>USD 200</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
                                 </div>
                                 <div class="card-actions justify-end">
                                     <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>

@@ -21,21 +21,19 @@
                     <li>You should only submit work if you, or a designee, are committed to registering for and
                         attending the Congress to give your Oral or E-Poster presentation</li>
                     <li>Registration is not mandatory in the submission process; however, all Presenting Authors must
-                        register for the Congress deadline by (....) , otherwise, the abstract will not be included in
-                        the
-                        final Congress program</li>
+                        register for the Congress deadline by June 27, 2025, otherwise, the abstract will not be
+                        included in the final Congress program</li>
                     <li>There is no limit to the number of abstracts you may submit, however, the Abstract Selection
                         Committee aims to achieve a wide geographic spread of presenters</li>
                     <li>There are 2 presentation types: Oral and E-Poster. You may indicate your preference, but the
-                        Abstract Selection Committee will make the final format determination
-                    </li>
+                        Abstract Selection Committee will make the final format determination</li>
                     <li>Abstracts cannot contain advertising, trade names, or product group messages. Please use generic
                         names or terms in your abstract content</li>
                 </ul>
                 <h4 class="mt-4 font-bold">Information Required to Complete a Submission</h4>
                 <p class="mt-2 leading-relaxed text-slate-500 px-4">Submitting Author: The author that submits the
-                    abstract, to whom all correspondence will be addressed
-                    and sent. The Submitting Author is assumed to be the Presenting Author unless otherwise indicated
+                    abstract, to whom all correspondence will be addressed and sent. The Submitting Author is assumed to
+                    be the Presenting Author unless otherwise indicated
                 </p>
                 <ul class="mt-2 leading-relaxed text-slate-500 list-disc px-10">
                     <li>Title (maximum 20 words)</li>
@@ -65,7 +63,7 @@
             <details class="p-6 group">
                 <summary class="flex items-center justify-between cursor-pointer">
                     <h5 class="text-xl font-semibold text-secondary">
-                        Abstract Selection
+                        Submission Deadline
                     </h5>
 
                     <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
@@ -74,28 +72,15 @@
                     </span>
                 </summary>
 
-                <p class="mt-4 leading-relaxed text-slate-500 px-4">Abstracts will be reviewed by the Scientific
-                    Committee to ensure that high-quality scientific submissions are selected for presentation at the
-                    Congress. The following criteria will be used to accept the abstracts:</p>
-                <ul class="list-disc px-10 mt-2 leading-relaxed text-slate-500">
-                    <li>Significance of the abstract for neurosurgery </li>
-                    <li>Innovativeness of ideas, methods, and/or approach</li>
-                    <li>The Rigor of methods and approach (analytical design for research, systematic approach for
-                        practice and/or policy)</li>
-                    <li>Presentation of empirical findings (not applicable if the abstract does not present empirical
-                        research)</li>
-                    <li>Implications identified for future research, practice, and/or policy</li>
-                    <li>Clarity of writing</li>
-                </ul>
-                <p class="mt-2 leading-relaxed text-slate-500 px-4">Notification of the Abstract Selection Committee’s
-                    decision will be sent by (....) via email to the Submitting Author, regardless of the
-                    outcome</p>
+                <p class="mt-4 leading-relaxed text-slate-500 px-4">Deadline for abstract submission is <span
+                        class="font-semibold"> June 13, 2025 at 12PM </span> local time</p>
+
             </details>
 
             <details class="p-6 group">
                 <summary class="flex items-center justify-between cursor-pointer">
                     <h5 class="text-xl font-semibold text-secondary">
-                        Registration/Attendance Requirement
+                        Withdraw Abstract(s)
                     </h5>
 
                     <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
@@ -105,25 +90,11 @@
                 </summary>
 
                 <p class="mt-4 leading-relaxed text-slate-500 px-4">
-                    The Presenting Author (Oral or E-Poster) must register for and attend the Congress. Registration
-                    must be completed by (....). If a Presenting Author does not register by the deadline, all accepted
-                    abstracts by that Presenting Author will be removed from the program.
+                    In case you want to withdraw your abstract after submission, please send an email before 1st, July
+                    2025 to <a href="mailto:icran2025@pharma-pro.com"
+                        class="text-secondary hover:underline">icran2025@pharma-pro.com</a>
                 </p>
-                <p class="mt-2 leading-relaxed text-slate-500 px-4">If the originally designated Presenting Author is
-                    unable to attend the Congress, a “Change of Presenting Author Form” (request from
-                    icran2025@pharma-pro.com) must be completed and submitted by (....)
-                </p>
-                <p class="mt-2 leading-relaxed text-slate-500 px-4">
-                    The new Presenting Author must then fulfil the registration requirement, or the abstract will be
-                    removed from the program. No changes will be made without receipt of the completed Change of
-                    Presenting Author Form, including updated disclosure information
-                </p>
-                <p class="mt-2 leading-relaxed text-slate-500 px-4">After the changes, all correspondence will then be
-                    addressed and sent to the new Presenting Author.
-                </p>
-                <p class="text-2xl px-2 mt-2 font-semibold text-slate-500">Need Assistance?</p>
 
-                <p class="mt-2 leading-relaxed text-slate-500 px-4">Please contact the Program Secretariat at <a href="mailto:icran2025@pharma-pro.com" class="text-secondary hover:underline">icran2025@pharma-pro.com</a> with any inquiries</p>
             </details>
 
             <!-- <details class="p-6 group">
@@ -204,7 +175,8 @@
             <h1 class="text-4xl text-secondary font-semibold">Abstract Submission</h1>
         </div>
         <div class="">
-            <iframe src="https://expo.virconex-id.com/abstract/icran2025" class="w-full rounded-lg h-[1500px] md:h-[1200px]"></iframe> 
+            <iframe src="https://expo.virconex-id.com/abstract/icran2025"
+                class="w-full rounded-lg h-[1500px] md:h-[1200px]"></iframe>
         </div>
     </div>
 </div>
