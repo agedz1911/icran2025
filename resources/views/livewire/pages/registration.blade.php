@@ -70,7 +70,7 @@
                                     <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
                                 </div>
                                 <hr class="mt-2 mb-2">
-                                <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Symposium + Global Neuro Workshop</h4>
+                                <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Package Symposium + Global Neuro Advanced Course Neurotrauma</h4>
                                 <div class="overflow-x-auto">
                                     <table class="table">
                                         <!-- head -->
@@ -188,7 +188,7 @@
                                     <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
                                 </div>
                                 <hr class="mt-2 mb-2">
-                                <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Symposium + Global Neuro Workshop</h4>
+                                <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Package Symposium + Global Neuro Advanced Course Neurotrauma</h4>
                                 <div class="overflow-x-auto">
                                     <table class="table">
                                         <!-- head -->
