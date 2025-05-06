@@ -3,7 +3,7 @@
 return [
     'title' => 'The International Conference on Recent Advances in Neurotraumatology',
     'association' => 'Symposium and Workshops',
-    'venue' => 'Four Points by Sheraton, Manado, North Sulawesi, Indonesia',
+    'venue' => 'ASEEC Tower, Universitas Airlangga, Surabaya, Indonesia',
     'date' => 'June, 11th - 14th, 2025',
     'register' => 'Register Now',
     'read_more' => 'Read More',
