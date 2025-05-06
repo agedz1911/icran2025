@@ -4,7 +4,7 @@
         <div class="hero-overlay bg-opacity-20 bg-cover bg-[url('images/bg1.png')]"></div>
         <div class="hero-content flex-col justify-start md:flex-row">
             <div class="max-w-2xl">
-                <img src="images/logo/logo-icon-n.png" class="w-80 lg:w-96" alt="">
+                <img src="images/logo/logo-icon-n2.png" class="w-80 lg:w-96" alt="">
                 <div class="flex flex-col gap-4 mt-5">
                     <h1 class="text-4xl text-icran-100 font-semibold">{{ __('home.title') }} </h1>
                     <h4 class="text-xl text-primary font-semibold tracking-wide italic">" {{ __('home.theme') }} "</h4>
