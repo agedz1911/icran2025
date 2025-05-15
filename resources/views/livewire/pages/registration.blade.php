@@ -131,23 +131,32 @@
                                                 <th class="text-start" style="width: 32%;">Category</th>
                                                 <th>Early Bird Registration <br> Up to June 30<sup>th</sup>, 2025</th>
                                                 <th>Late / Onsite Registration <br> After June 30<sup>th</sup>, 2025</th>
+                                                <th></th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <!-- row 1 -->
                                             <tr class="bg-base-200">
-
                                                 <td>Workshop Research & Publication in Neurotrauma</td>
                                                 <td>IDR 750.000</td>
                                                 <td>IDR 750.000</td>
+                                                <td>
+                                                    <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
+                                                </td>
                                             </tr>
-                                            
+                                            <tr class="bg-base-200">
+                                                <td>Workshop Primary Neuro Emergency & Neuro Surgical Life Support</td>
+                                                <td>IDR 3.500.015</td>
+                                                <td>IDR 3.500.015</td>
+                                                <td>
+                                                    <a href="https://forms.gle/QU9fEHmfRZmqXwD87" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
+                                                </td>
+                                            </tr>
+
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="card-actions justify-end">
-                                    <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
