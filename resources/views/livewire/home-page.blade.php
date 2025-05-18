@@ -11,7 +11,7 @@
                     <p class="text-slate-50">{{ __('home.event_date') }} <br>{{ __('home.venue') }}</p>
                     <div class="flex flex-row gap-5">
                         <a href="/registration" class="btn btn-primary text-white">{{ __('home.register') }}</a href="/registration">
-                        <a href="/download/announcement" target="_blank" class="btn btn-outline btn-primary">Download Announcement</a>
+                        <a href="/download/announcement.pdf" target="_blank" class="btn btn-outline btn-primary">Download Announcement</a>
                     </div>
                 </div>
             </div>
