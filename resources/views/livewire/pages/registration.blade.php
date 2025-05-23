@@ -145,7 +145,7 @@
                                                 </td>
                                             </tr>
                                             <tr class="bg-base-200">
-                                                <td>Workshop Primary Neuro Emergency & Neuro Surgical Life Support</td>
+                                                <td>Workshop Primary Neuro Emergency & Neuro Surgical Life Support <br> <span class="text-xs italic text-error">(This Price Includes Admission to the Symposium)</span></td>
                                                 <td>IDR 3.500.015</td>
                                                 <td>IDR 3.500.015</td>
                                                 <td>
