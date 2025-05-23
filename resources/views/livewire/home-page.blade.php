@@ -10,8 +10,8 @@
                     <h4 class="text-xl text-primary font-semibold tracking-wide italic">" {{ __('home.theme') }} "</h4>
                     <p class="text-slate-50">{{ __('home.event_date') }} <br>{{ __('home.venue') }}</p>
                     <div class="flex flex-row gap-5">
-                        <button class="btn btn-primary text-white">{{ __('home.register') }}</button>
-                        <button class="btn btn-outline btn-primary">{{ __('home.read_more') }}</button>
+                        <a href="/registration" class="btn btn-primary text-white">{{ __('home.register') }}</a href="/registration">
+                        <a href="/download/announcement.pdf" target="_blank" class="btn btn-outline btn-primary">Download Announcement</a>
                     </div>
                 </div>
             </div>
