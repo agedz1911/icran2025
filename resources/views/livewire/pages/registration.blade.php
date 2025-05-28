@@ -71,6 +71,7 @@
                                 </div>
                                 <hr class="mt-2 mb-2">
                                 <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Package Symposium + Global Neuro Advanced Course Neurotrauma</h4>
+                                <a href="download/agenda-course-neurotrauma.pdf" target="_blank" class="btn btn-secondary"><i class="fa fa-download"></i> Download Agenda Global Neuro Advanced Course Neurotrauma</a>
                                 <div class="overflow-x-auto">
                                     <table class="table">
                                         <!-- head -->
