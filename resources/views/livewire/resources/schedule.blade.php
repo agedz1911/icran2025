@@ -1,7 +1,7 @@
 <div class="card w-full bg-slate-50 rounded-lg shadow-xl">
     <div class="card-body">
         @foreach ($files as $file)
-        <iframe class="w-full min-h-screen" src="{{ $file->file_at_schedule }}"
+        <iframe class="w-full min-h-screen" src="{{ asset('storage/' . $file->file_at_schedule) }}"
             frameborder="0"></iframe>
         <div class="mb-5">
             <a href="{{$file->file_at_schedule}}" class="btn btn-primary"><i class="fa fa-download"></i> Download</a>
