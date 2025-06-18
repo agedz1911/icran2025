@@ -45,15 +45,15 @@
 
               <li
                 class="nav-item nav-item-has-children {{ request()->is('scientific-program*') ? 'text-primary' : '' }}">
-                <a href="javascript:void(0)" class="nav-link-item drop-trigger">{{__('menu.program')}}
+                <a href="/scientific-program" class="nav-link-item drop-trigger">{{__('menu.program')}}
                   <i class="fa-solid fa-angle-down"></i>
                 </a>
                 <ul class="sub-menu" id="submenu-2">
                   <li class="sub-menu--item">
-                    <a href="javascript:void(0)">{{__('menu.atglance')}}</a>
+                    <a href="/scientific-program#at-glance">{{__('menu.atglance')}}</a>
                   </li>
                   <li class="sub-menu--item">
-                    <a href="javascript:void(0)">{{__('menu.schedule')}}</a>
+                    <a href="/scientific-program#schedule">{{__('menu.schedule')}}</a>
                   </li>
                 </ul>
               </li>
