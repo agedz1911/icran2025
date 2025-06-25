@@ -123,6 +123,32 @@
                                     <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
                                 </div>
                                 <hr class="mt-2 mb-2">
+                                <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Package Symposium + Workshop Research & Publication in Neurotrauma</h4>
+                                <div class="overflow-x-auto">
+                                    <table class="table">
+                                        <!-- head -->
+                                        <thead>
+                                            <tr class="bg-icran2-100 text-slate-800">
+                                                <th class="text-start" style="width: 32%;">Category</th>
+                                                <th>Early Bird Registration <br> Up to June 30<sup>th</sup>, 2025</th>
+                                                <th>Late / Onsite Registration <br> After June 30<sup>th</sup>, 2025</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- row 1 -->
+                                            <tr class="bg-base-200">
+                                                <td>Resident</td>
+                                                <td>IDR 1.500.00</td>
+                                                <td>IDR 1.500.000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="card-actions justify-end">
+                                    <a href="https://expo.virconex-id.com/registration/icran2025" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Register Now</a>
+                                </div>
+                                <hr class="mt-2 mb-2">
                                 <h4><i class="fa fa-angle-right text-xs text-gray-400"></i> Workshops</h4>
                                 <div class="overflow-x-auto">
                                     <table class="table">
@@ -157,7 +183,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>

@@ -73,8 +73,7 @@
                 </summary>
 
                 <p class="mt-4 leading-relaxed text-slate-500 px-4">Deadline for abstract submission is <span
-                        class="font-semibold"> June 13, 2025 at 12PM </span> local time</p>
-
+                        class="font-semibold"> June 28, 2025 at 12PM </span> local time</p>
             </details>
 
             <details class="p-6 group">
